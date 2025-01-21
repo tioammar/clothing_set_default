@@ -3,4 +3,4 @@ factories:
 
 localization:
     onscreens:
-        en-us: etc\localization\en-us.json
+        en-us: clothing\localization\en-us.json
