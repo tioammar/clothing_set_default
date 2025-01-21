@@ -1,0 +1,15 @@
+Items.GOG_Galaxy_TShirt:
+  $base: Items.Skirt
+  placementSlots: 
+    - !append OutfitSlots.ThighLeft
+  entityName: v_cyberdeck_item
+  appearanceName: v_cyberdeck_
+  displayName: LocKey("v_cyberdeck_name")
+  localizedDescription: LocKey("v_cyberdeck_desc")
+  quality: Quality.Legendary
+  appearanceSuffixes: [ itemsFactoryAppearanceSuffix.Gender ]
+  statModifiers:
+    - !append Character.ScaleToPlayerLevel
+  icon:
+    atlasResourcePath: base\cyberdeck\icons\v_cyberdeck.inkatlas
+    atlasPartName: slot_08

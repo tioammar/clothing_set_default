@@ -1,0 +1,6 @@
+factories:
+    - base\v_cyberdeck.csv
+
+localization:
+    onscreens:
+        en-us: etc\localization\en-us.json
