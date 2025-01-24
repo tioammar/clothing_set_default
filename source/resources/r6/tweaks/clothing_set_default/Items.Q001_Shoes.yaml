@@ -105,5 +105,5 @@ Items.Q001_Shoes:
   statPools: []
   weakspots: []
   icon:
-    atlasResourcePath: base\gameplay\gui\common\icons\items\item_icons13.inkatlas
+    atlasResourcePath: base\gameplay\gui\common\icons\items\item_icons12.inkatlas
     atlasPartName: clothing_player_feet_item_s1_boots_05_old_02__Male_
