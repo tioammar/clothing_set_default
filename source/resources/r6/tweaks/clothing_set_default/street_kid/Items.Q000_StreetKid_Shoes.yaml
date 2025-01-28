@@ -1,0 +1,107 @@
+Items.Q000_StreetKid_Shoes:
+  $type: gamedataClothing_Record
+  animFeatureName: ItemData
+  animName: ui_garment_pose
+  animSetResource: ''
+  appearanceName: s1_boots_05_q000_nomad_
+  blueprint: Items.FootClothingBlueprint
+  canDrop: True
+  crosshair: Crosshairs.None
+  deprecated: False
+  dropObject: defaultItemDrop
+  enableNpcRPGData: False
+  entityName: player_feet_item
+  equipArea: EquipmentArea.Feet
+  friendlyName: ''
+  garmentOffset: 0
+  icon: UIIcon.ItemIcon
+  iconPath: ''
+  isCached: False
+  isCoreCW: False
+  isCustomizable: False
+  isGarment: True
+  isPart: False
+  isSingleInstance: False
+  itemCategory: ItemCategory.Clothing
+  itemSecondaryAction: ItemAction.Equip
+  itemType: ItemType.Clo_Feet
+  localizedName: ''
+  mass: 1
+  minigameInstance: minigame_v2.DefaultItemMinigame
+  movementSound: Items.FootClothingBase_inline0
+  parentAttachmentType: ParentAttachmentType.Skinned
+  powerLevelDeterminedByParent: False
+  quality: Quality.Common
+  qualityRestrictedByParent: False
+  replicateWhenNotActive: False
+  upgradeCostMult: 1
+  useHeadgearGarmentAggregator: False
+  useNewSpawnMethod: False
+  usesVariants: False
+  savable: False
+  animationParameters: []
+  appearanceSuffixes:
+    - itemsFactoryAppearanceSuffix.Gender
+  appearanceSuffixesOwnerOverride:
+    - True
+  attachmentSlots: []
+  buyPrice:
+    - Price.Clothing
+    - Price.BuyPrice_StreetCred_Discount
+    - Price.FeetClothing
+    - Price.Boots
+  cameraForward: {x: 0, y: 0, z: 0}
+  cameraUp: {x: 0, y: 0, z: 0}
+  connections: []
+  displayName: LocKey#48329
+  equipAreas: []
+  equipPrereqs: []
+  gameplayRestrictions:
+    - GameplayRestriction.VehicleCombatNoInterruptions
+  hairSkinnedMeshComponents: []
+  localizedDescription: LocKey#48330
+  OnAttach:
+    - Items_glp.PlayerPhotoModeCorrectivePose
+  OnEquip: []
+  OnLooted: []
+  parts: []
+  placementSlots:
+    - AttachmentSlots.Feet
+  previewBBoxOverride: []
+  requiredSlots: []
+  sellPrice:
+    - Price.Clothing
+    - Price.ClothingSellMultiplier
+    - Price.FeetClothing
+    - Price.Boots
+  slotPartList:
+    - Items.GenericRootSlotItem
+  slotPartListPreset: []
+  tags:
+    - Clothing
+    - FeetClothing
+    - EmptySlots
+  variants: []
+  visualTags: []
+  effectors: []
+  objectActions:
+    - ItemAction.Drop
+    - ItemAction.Disassemble
+  statModifierGroups:
+    - Items.QualityRandomization
+  statModifiers:
+    - Items.ItemArmorToArmor
+    - RTDB.Clothing_inline0
+    - Items.FootClothingBase_inline1
+    - Items.FootClothingBase_inline2
+    - Items.FootClothingBase_inline3
+    - Items.FootClothingBase_inline4
+    - Items.FootClothingBase_inline5
+    - Items.FootClothingBase_inline6
+    - Items.FootClothingBase_inline7
+    - Items.FootClothingBase_inline8
+    - Items.EmptySlotsBoots_inline0
+    - Items.Q000_Nomad_Boots_inline0
+  statPools: []
+  weakspots: []
+  scaleToPlayer: True
