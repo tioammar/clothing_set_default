@@ -52,13 +52,13 @@ Items.Q000_StreetKid_Pants:
   cameraForward: {x: 0, y: 0, z: 0}
   cameraUp: {x: 0, y: 0, z: 0}
   connections: []
-  displayName: LocKey#48323
+  displayName: LocKey#48325
   equipAreas: []
   equipPrereqs: []
   gameplayRestrictions:
     - GameplayRestriction.VehicleCombatNoInterruptions
   hairSkinnedMeshComponents: []
-  localizedDescription: LocKey#48324
+  localizedDescription: LocKey#48326
   OnAttach: []
   OnEquip: []
   OnLooted: []

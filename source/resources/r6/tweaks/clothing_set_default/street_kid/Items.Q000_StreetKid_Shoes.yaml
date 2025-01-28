@@ -53,13 +53,13 @@ Items.Q000_StreetKid_Shoes:
   cameraForward: {x: 0, y: 0, z: 0}
   cameraUp: {x: 0, y: 0, z: 0}
   connections: []
-  displayName: LocKey#48329
+  displayName: LocKey#48331
   equipAreas: []
   equipPrereqs: []
   gameplayRestrictions:
     - GameplayRestriction.VehicleCombatNoInterruptions
   hairSkinnedMeshComponents: []
-  localizedDescription: LocKey#48330
+  localizedDescription: LocKey#48332
   OnAttach:
     - Items_glp.PlayerPhotoModeCorrectivePose
   OnEquip: []
