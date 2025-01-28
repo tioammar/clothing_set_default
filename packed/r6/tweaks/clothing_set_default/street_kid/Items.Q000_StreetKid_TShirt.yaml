@@ -3,7 +3,7 @@ Items.Q000_StreetKid_TShirt:
   animFeatureName: ItemData
   animName: ui_garment_pose
   animSetResource: ''
-  appearanceName: set_01_solo_01_t1_
+  appearanceName: t1_tshirt_03_rich_02_
   blueprint: Items.InnerChestClothingBlueprint
   canDrop: True
   crosshair: Crosshairs.None
@@ -30,7 +30,7 @@ Items.Q000_StreetKid_TShirt:
   minigameInstance: minigame_v2.DefaultItemMinigame
   parentAttachmentType: ParentAttachmentType.Skinned
   powerLevelDeterminedByParent: False
-  quality: Quality.Legendary
+  quality: Quality.Random
   qualityRestrictedByParent: False
   replicateWhenNotActive: False
   upgradeCostMult: 1
@@ -48,7 +48,7 @@ Items.Q000_StreetKid_TShirt:
     - Price.Clothing
     - Price.BuyPrice_StreetCred_Discount
     - Price.InnerChestClothing
-    - Price.TShirt
+    - Price.TankTop
   cameraForward: {x: 0, y: 0, z: 0}
   cameraUp: {x: 0, y: 0, z: 0}
   connections: []
@@ -71,7 +71,7 @@ Items.Q000_StreetKid_TShirt:
     - Price.Clothing
     - Price.ClothingSellMultiplier
     - Price.InnerChestClothing
-    - Price.TShirt
+    - Price.TankTop
   slotPartList:
     - Items.GenericRootSlotItem
     - Items.GenericInnerChestClothing_inline0
@@ -79,6 +79,9 @@ Items.Q000_StreetKid_TShirt:
   tags:
     - Clothing
     - InnerChestArmor
+    - Rich
+    - Rocker
+    - Valentinos
   variants: []
   visualTags: []
   effectors: []
@@ -98,6 +101,6 @@ Items.Q000_StreetKid_TShirt:
     - Items.InnerChestClothingBase_inline5
     - Items.InnerChestClothingBase_inline6
     - Items.InnerChestClothingBase_inline7
-    - Items.TShirt_inline0
+    - Items.TankTop_inline0
   statPools: []
   weakspots: []
