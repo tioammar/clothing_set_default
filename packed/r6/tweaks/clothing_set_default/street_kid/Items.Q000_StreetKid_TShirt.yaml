@@ -3,7 +3,7 @@ Items.Q000_StreetKid_TShirt:
   animFeatureName: ItemData
   animName: ui_garment_pose
   animSetResource: ''
-  appearanceName: t1_tshirt_03_rich_02_
+  appearanceName: t1_shirt_03_rich_03_
   blueprint: Items.InnerChestClothingBlueprint
   canDrop: True
   crosshair: Crosshairs.None
@@ -41,6 +41,8 @@ Items.Q000_StreetKid_TShirt:
   animationParameters: []
   appearanceSuffixes:
     - itemsFactoryAppearanceSuffix.Gender
+    - itemsFactoryAppearanceSuffix.Camera
+    - itemsFactoryAppearanceSuffix.Partial
   appearanceSuffixesOwnerOverride:
     - True
   attachmentSlots: []
@@ -48,11 +50,11 @@ Items.Q000_StreetKid_TShirt:
     - Price.Clothing
     - Price.BuyPrice_StreetCred_Discount
     - Price.InnerChestClothing
-    - Price.TankTop
+    - Price.Shirt
   cameraForward: {x: 0, y: 0, z: 0}
   cameraUp: {x: 0, y: 0, z: 0}
   connections: []
-  displayName: LocKey#48335
+  displayName: LocKey("v_street_name")
   equipAreas: []
   equipPrereqs: []
   gameplayRestrictions:
@@ -71,17 +73,16 @@ Items.Q000_StreetKid_TShirt:
     - Price.Clothing
     - Price.ClothingSellMultiplier
     - Price.InnerChestClothing
-    - Price.TankTop
+    - Price.Shirt
   slotPartList:
     - Items.GenericRootSlotItem
-    - Items.GenericInnerChestClothing_inline0
   slotPartListPreset: []
   tags:
     - Clothing
     - InnerChestArmor
+    - EmptySlots
     - Rich
-    - Rocker
-    - Valentinos
+    - Military
   variants: []
   visualTags: []
   effectors: []
@@ -101,6 +102,6 @@ Items.Q000_StreetKid_TShirt:
     - Items.InnerChestClothingBase_inline5
     - Items.InnerChestClothingBase_inline6
     - Items.InnerChestClothingBase_inline7
-    - Items.TankTop_inline0
+    - Items.EmptySlotsShirt_inline0
   statPools: []
   weakspots: []

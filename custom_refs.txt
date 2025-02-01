@@ -47,7 +47,12 @@ base\cyberdeck\v_cyberdeck.app
 base\localization\en-us.json
 base\v_boots.csv
 base\v_cyberdeck.csv
+bushido\localization\en-us.json
 clothing\localization\en-us.json
+ep1\weapons\firearms\handgun\arasaka_kenshin\entities\meshes\w_handgun__arasaka_kenshin__base1_02_bushido_decal_01_d.mesh
+ep1\weapons\firearms\handgun\arasaka_kenshin\entities\meshes\w_handgun__arasaka_kenshin__base1_02_bushido_decal_01_n.mesh
+ep1\weapons\firearms\handgun\arasaka_kenshin\entities\meshes\w_handgun__arasaka_kenshin__base1_02_bushido_shadow.mesh
+ep1\weapons\firearms\handgun\arasaka_kenshin\entities\meshes\w_handgun__arasaka_kenshin__base1_02_bushido.mesh
 ep1\weapons\firearms\handgun\constitutional_unity\entities\meshes\textures\ml_w_att__power_13_01_masksset.mlsetup
 ep1\weapons\firearms\handgun\constitutional_unity\entities\meshes\textures\ml_w_handgun__constitutional_unity__base1_01_glory_01_muzzle.mlsetup
 ep1\weapons\firearms\handgun\constitutional_unity\entities\meshes\textures\ml_w_handgun__constitutional_unity__base1_01_glory_01.mlsetup
@@ -57,4 +62,5 @@ ep1\weapons\firearms\handgun\constitutional_unity\entities\meshes\w_handgun__con
 ep1\weapons\firearms\handgun\constitutional_unity\entities\meshes\w_handgun__constitutional_unity__base1_01_glory_nomuzzle_01.mesh
 ep1\weapons\firearms\handgun\constitutional_unity\entities\meshes\w_handgun__constitutional_unity__base1_01_glory2_01.mesh
 etc\localization\en-us.json
+glory\localization\en-us.json
 iconic_glory\localization\en-us.json
