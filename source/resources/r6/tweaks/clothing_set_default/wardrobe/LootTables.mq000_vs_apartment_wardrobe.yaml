@@ -1,0 +1,8 @@
+LootTables.mq000_vs_apartment_wardrobe:
+  $type: gamedataLootTable_Record
+  lootGenerationType: dropChance
+  maxItemsToLoot: 1
+  minItemsToLoot: 1
+  lootItems: []
+  lootTableInclusions: []
+  queries: []
