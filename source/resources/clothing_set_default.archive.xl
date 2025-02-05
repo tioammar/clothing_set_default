@@ -1,6 +1,9 @@
 factories:
     - base\v_cyberdeck.csv
+    - raem\accessories\xl\rm_neck_bulletv_factory.csv 
 
 localization:
     onscreens:
-        en-us: clothing\localization\en-us.json
+        en-us: 
+            - clothing\localization\en-us.json
+            - raem\accessories\xl\rm_neck_bulletv_translation_strings.json

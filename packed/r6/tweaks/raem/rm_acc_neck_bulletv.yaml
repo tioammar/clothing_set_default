@@ -1,0 +1,30 @@
+Items.V_Necklace_${color}:
+  $instances:
+    - { icon: 01, color: black }
+    - { icon: 02, color: brushedblack }
+    - { icon: 03, color: copper }
+    - { icon: 04, color: gold }
+    - { icon: 05, color: goldsteel }
+    - { icon: 06, color: gunmetal }
+    - { icon: 07, color: rose }
+    - { icon: 08, color: silver }
+    - { icon: 09, color: steel }
+    - { icon: 10, color: titanium }
+  $base: Items.GenericInnerChestClothing
+  entityName: rm_neck_bulletv
+  quality: Quality.Legendary
+  placementSlots: 
+    - !append OutfitSlots.NecklaceShort
+  statModifiers:
+    - !append Character.ScaleToPlayerLevel
+    - !append
+       $type: gamedataConstantStatModifier_Record
+       value: 0.2
+       modifierType: Multiplier
+       statType: BaseStats.Weight
+  appearanceName: rm_neck_bulletv_sh_!${color}
+  displayName: rm_neck_bulletv_sh_${color}_name
+  localizedDescription: rm_neck_bulletv_sh_desc
+  icon:
+    atlasResourcePath: raem\accessories\icons\rm_neck_bulletv_s_icons.inkatlas
+    atlasPartName: slot_${icon}
