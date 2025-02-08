@@ -1,14 +1,56 @@
+local is_rescue = false
+local is_johnny = false
+local GameSession = require('GameSession')
+
+function statusSet()
+    is_rescue = Game.GetQuestsSystem():GetFactStr("q001_wakeup_scene_done") == 1
+    is_johnny = Game.GetQuestsSystem():GetFactStr("q101_v_reached_pills") == 1
+end
+
+function statusReset()
+    is_rescue = false
+    is_johnny = false
+end
+
+function statusPrint()
+    print("clothing_set_default: " .. (is_rescue and "racer_1" or "racer_0"))
+    print("clothing_set_default: " .. (is_johnny and "relic_1" or "relic_0"))
+end
+
 registerForEvent("onInit", function()
+    print("Alternate V Clothing Set Initialized!")
+    statusSet()
+
+    GameSession.OnStart(function()
+        print('clothing_set_default: game_session_start')
+        statusSet()
+        statusPrint()
+    end)
+
+    GameSession.OnEnd(function()
+        print("clothing_set_default: game_session_ended")
+        statusReset()
+    end)
+    
+    Observe("characterCreationSummaryMenu", "OnOutroComplete",
+    ---@param this characterCreationSummaryMenu
+    ---@param anim inkAnimProxy
+    function(this, anim)
+        print("clothing_set_default: new_game")
+        statusReset()
+        statusPrint()
+    end)
+        
     Observe("QuestsSystem", "SetFact",
     ---@param this QuestsSystem
     ---@param factName string | CName
     ---@param value Int32
     function(this, factName, value)
-        if tostring(factName.value) == "ranged_combat_tutorial" then
+        if tostring(factName.value) == "ranged_combat_tutorial" and not is_rescue then
             print("clothing_set_default: checkpoint_" .. tostring(factName.value))
-            if Game.GetQuestsSystem():GetFactStr("q001_wakeup_scene_done") == 0 then
-                RPGManager.ForceEquipItemOnPlayer(GetPlayer(),"Items.Q001_Racer", true)
-            end
+            RPGManager.ForceEquipItemOnPlayer(GetPlayer(),"Items.Q001_Racer", true)
+            is_rescue = true
+            statusPrint()
         end
     end)
 
@@ -16,12 +58,11 @@ registerForEvent("onInit", function()
     ---@param this JournalManager
     ---@param entry JournalEntry
     function(this, entry)
-        if tostring(entry.id) == "johnny_talk" then
+        if tostring(entry.id) == "johnny_talk" and not is_johnny then
             print("clothing_set_default: checkpoint_" .. tostring(entry.id))
-            if Game.GetQuestsSystem():GetFactStr("q101_v_reached_pills") == 0 then
-                Game.AddToInventory("Items.V_Necklace_titanium", 1)
-                PlayerDevelopmentSystem.GetInstance(Game.GetPlayer()):GetDevelopmentData(Game.GetPlayer()):SetLevel(gamedataProficiencyType['StreetCred'], 15, telemetryLevelGainReason.Gameplay)
-            end
+            Game.AddToInventory("Items.V_Necklace_titanium", 1)
+            is_johnny = true
+            statusPrint()
         end
     end)
 end)

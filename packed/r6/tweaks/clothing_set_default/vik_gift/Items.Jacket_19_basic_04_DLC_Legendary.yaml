@@ -1,0 +1,109 @@
+Items.Jacket_19_basic_04_DLC_Legendary:
+  $type: gamedataClothing_Record
+  animFeatureName: ItemData
+  animName: ui_garment_pose
+  animSetResource: ''
+  appearanceName: t2_jacket_01_basic_01_
+  blueprint: Items.OuterChestClothingBlueprint
+  canDrop: True
+  crosshair: Crosshairs.None
+  deprecated: False
+  dropObject: samurai_jacket_folded
+  enableNpcRPGData: False
+  entityName: player_outer_torso_item
+  equipArea: EquipmentArea.ChestArmor
+  friendlyName: ''
+  garmentOffset: 0
+  isCached: False
+  isCoreCW: False
+  isCustomizable: False
+  isGarment: True
+  isPart: False
+  isSingleInstance: False
+  itemCategory: ItemCategory.Clothing
+  itemSecondaryAction: ItemAction.Equip
+  itemType: ItemType.Clo_OuterChest
+  localizedName: ''
+  mass: 1
+  minigameInstance: minigame_v2.DefaultItemMinigame
+  parentAttachmentType: ParentAttachmentType.Skinned
+  powerLevelDeterminedByParent: False
+  quality: Quality.Legendary
+  qualityRestrictedByParent: False
+  replicateWhenNotActive: False
+  upgradeCostMult: 1
+  useHeadgearGarmentAggregator: False
+  useNewSpawnMethod: False
+  usesVariants: False
+  savable: False
+  animationParameters: []
+  appearanceSuffixes:
+    - itemsFactoryAppearanceSuffix.Gender
+    - itemsFactoryAppearanceSuffix.Camera
+  appearanceSuffixesOwnerOverride:
+    - True
+    - False
+  attachmentSlots: []
+  buyPrice:
+    - Price.Clothing
+    - Price.BuyPrice_StreetCred_Discount
+    - Price.OuterChestClothing
+    - Price.Jacket
+  cameraForward: {x: 0, y: 0, z: 0}
+  cameraUp: {x: 0, y: 0, z: 0}
+  connections: []
+  displayName: LocKey("vik_gift_name")
+  equipAreas: []
+  equipPrereqs: []
+  gameplayRestrictions:
+    - GameplayRestriction.VehicleCombatNoInterruptions
+  hairSkinnedMeshComponents: []
+  localizedDescription: LocKey("vik_gift_desc")
+  OnAttach:
+    - Items_glp.NoAnimation
+  OnEquip: []
+  OnLooted: []
+  parts: []
+  placementSlots:
+    - AttachmentSlots.Torso
+  previewBBoxOverride: []
+  requiredSlots: []
+  sellPrice:
+    - Price.Clothing
+    - Price.ClothingSellMultiplier
+    - Price.OuterChestClothing
+    - Price.Jacket
+  slotPartList:
+    - Items.GenericRootSlotItem
+  slotPartListPreset: []
+  tags:
+    - Clothing
+    - ChestArmor
+    - EmptySlots
+    - Quest
+  variants: []
+  visualTags: []
+  effectors: []
+  objectActions:
+    - ItemAction.Drop
+    - ItemAction.Disassemble
+  statModifierGroups:
+    - Items.QualityRandomization
+  statModifiers:
+    - Items.ItemArmorToArmor
+    - RTDB.Clothing_inline0
+    - Items.OuterChestClothingBase_inline0
+    - Items.OuterChestClothingBase_inline1
+    - Items.OuterChestClothingBase_inline2
+    - Items.OuterChestClothingBase_inline3
+    - Items.OuterChestClothingBase_inline4
+    - Items.OuterChestClothingBase_inline5
+    - Items.OuterChestClothingBase_inline6
+    - Items.OuterChestClothingBase_inline7
+    - Items.EmptySlotsJacket_inline0
+  statPools: []
+  weakspots: []
+  scaleToPlayer: True
+  icon:
+    atlasResourcePath: base\gameplay\gui\common\icons\items\item_icons8.inkatlas
+    atlasPartName: clothing_player_outer_torso_item_t2_jacket_01_sq031_silverhand_samurai__Male_TPP_
