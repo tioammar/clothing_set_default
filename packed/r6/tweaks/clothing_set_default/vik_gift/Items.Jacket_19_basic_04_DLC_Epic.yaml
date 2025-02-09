@@ -80,7 +80,6 @@ Items.Jacket_19_basic_04_DLC_Epic:
     - Clothing
     - ChestArmor
     - EmptySlots
-    - Quest
   variants: []
   visualTags: []
   effectors: []
@@ -105,5 +104,5 @@ Items.Jacket_19_basic_04_DLC_Epic:
   weakspots: []
   scaleToPlayer: True
   icon:
-    atlasResourcePath: base\gameplay\gui\common\icons\items\item_icons8.inkatlas
+    atlasResourcePath: base\gameplay\gui\common\icons\items\item_icons9.inkatlas
     atlasPartName: clothing_player_outer_torso_item_t2_jacket_01_sq031_silverhand_samurai__Male_TPP_
