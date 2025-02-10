@@ -1,19 +1,19 @@
-local is_rescue = false
+local is_init = false
 local is_johnny = false
 local GameSession = require('GameSession')
 
 function statusSet()
-    is_rescue = Game.GetQuestsSystem():GetFactStr("q001_wakeup_scene_done") == 1
+    is_init = Game.GetQuestsSystem():GetFactStr("ranged_combat_tutorial") == 1
     is_johnny = Game.GetQuestsSystem():GetFactStr("q101_v_reached_pills") == 1
 end
 
 function statusReset()
-    is_rescue = false
+    is_init = false
     is_johnny = false
 end
 
 function statusPrint()
-    print("clothing_set_default: " .. (is_rescue and "racer_1" or "racer_0"))
+    print("clothing_set_default: " .. (is_init and "racer_1" or "racer_0"))
     print("clothing_set_default: " .. (is_johnny and "relic_1" or "relic_0"))
 end
 
@@ -46,10 +46,10 @@ registerForEvent("onInit", function()
     ---@param factName string | CName
     ---@param value Int32
     function(this, factName, value)
-        if tostring(factName.value) == "ranged_combat_tutorial" and not is_rescue then
+        if tostring(factName.value) == "ranged_combat_tutorial" and not is_init then
             print("clothing_set_default: checkpoint_" .. tostring(factName.value))
             RPGManager.ForceEquipItemOnPlayer(GetPlayer(),"Items.Q001_Racer", true)
-            is_rescue = true
+            is_init = true
             statusPrint()
         end
     end)
