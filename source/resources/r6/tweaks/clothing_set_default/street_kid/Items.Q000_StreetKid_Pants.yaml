@@ -3,7 +3,7 @@ Items.Q000_StreetKid_Pants:
   animFeatureName: ItemData
   animName: ui_garment_pose
   animSetResource: ''
-  appearanceName: l1_pants_02_q000_nomad_
+  appearanceName: l1_pants_17_rich_04_
   blueprint: Items.LegClothingBlueprint
   canDrop: True
   crosshair: Crosshairs.None
@@ -74,11 +74,15 @@ Items.Q000_StreetKid_Pants:
     - Price.Pants
   slotPartList:
     - Items.GenericRootSlotItem
+    - Items.GenericLegClothing_inline0
   slotPartListPreset: []
   tags:
     - Clothing
     - LegArmor
-    - EmptySlots
+    - EP1
+    - Rich
+    - Military
+    - Barghest
   variants: []
   visualTags: []
   effectors: []
@@ -98,8 +102,6 @@ Items.Q000_StreetKid_Pants:
     - Items.LegClothingBase_inline5
     - Items.LegClothingBase_inline6
     - Items.LegClothingBase_inline7
-    - Items.EmptySlotsPants_inline0
-    - Items.Q000_Nomad_Pants_inline0
+    - Items.Pants_inline0
   statPools: []
   weakspots: []
-  scaleToPlayer: True
