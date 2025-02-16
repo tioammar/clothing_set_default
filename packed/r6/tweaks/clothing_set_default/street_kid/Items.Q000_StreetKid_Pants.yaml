@@ -3,7 +3,7 @@ Items.Q000_StreetKid_Pants:
   animFeatureName: ItemData
   animName: ui_garment_pose
   animSetResource: ''
-  appearanceName: l1_pants_17_rich_04_
+  appearanceName: set_01_media_01_l1_
   blueprint: Items.LegClothingBlueprint
   canDrop: True
   crosshair: Crosshairs.None
@@ -79,10 +79,6 @@ Items.Q000_StreetKid_Pants:
   tags:
     - Clothing
     - LegArmor
-    - EP1
-    - Rich
-    - Military
-    - Barghest
   variants: []
   visualTags: []
   effectors: []
