@@ -3,7 +3,7 @@ Items.Q000_StreetKid_Shoes:
   animFeatureName: ItemData
   animName: ui_garment_pose
   animSetResource: ''
-  appearanceName: s1_boots_05_q000_nomad_
+  appearanceName: s1_casual_01_basic_04_
   blueprint: Items.FootClothingBlueprint
   canDrop: True
   crosshair: Crosshairs.None
@@ -28,7 +28,7 @@ Items.Q000_StreetKid_Shoes:
   localizedName: ''
   mass: 1
   minigameInstance: minigame_v2.DefaultItemMinigame
-  movementSound: Items.FootClothingBase_inline0
+  movementSound: Items.CasualShoes_inline1
   parentAttachmentType: ParentAttachmentType.Skinned
   powerLevelDeterminedByParent: False
   quality: Quality.Common
@@ -49,7 +49,7 @@ Items.Q000_StreetKid_Shoes:
     - Price.Clothing
     - Price.BuyPrice_StreetCred_Discount
     - Price.FeetClothing
-    - Price.Boots
+    - Price.CasualShoes
   cameraForward: {x: 0, y: 0, z: 0}
   cameraUp: {x: 0, y: 0, z: 0}
   connections: []
@@ -73,14 +73,16 @@ Items.Q000_StreetKid_Shoes:
     - Price.Clothing
     - Price.ClothingSellMultiplier
     - Price.FeetClothing
-    - Price.Boots
+    - Price.CasualShoes
   slotPartList:
     - Items.GenericRootSlotItem
+    - Items.GenericFootClothing_inline0
   slotPartListPreset: []
   tags:
     - Clothing
     - FeetClothing
-    - EmptySlots
+    - Simple
+    - Rocker
   variants: []
   visualTags: []
   effectors: []
@@ -100,8 +102,7 @@ Items.Q000_StreetKid_Shoes:
     - Items.FootClothingBase_inline6
     - Items.FootClothingBase_inline7
     - Items.FootClothingBase_inline8
-    - Items.EmptySlotsBoots_inline0
-    - Items.Q000_Nomad_Boots_inline0
+    - Items.CasualShoes_inline0
   statPools: []
   weakspots: []
   scaleToPlayer: True
