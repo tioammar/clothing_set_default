@@ -1,3 +1,4 @@
+alternate_v\localization\en-us.json
 base\boots\icons\v_boots_icons.inkatlas
 base\boots\icons\v_boots_icons.xbm
 base\boots\mesh\v_boots_m.mesh
