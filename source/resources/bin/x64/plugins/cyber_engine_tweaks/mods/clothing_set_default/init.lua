@@ -14,7 +14,7 @@ end
 
 function statusPrint()
     print("clothing_set_default: " .. (is_init and "racer_1" or "racer_0"))
-    print("clothing_set_default: " .. (is_johnny and "relic_1" or "relic_0"))
+    print("clothing_set_default: " .. (is_johnny and "necklace_1" or "necklace_0"))
 end
 
 registerForEvent("onInit", function()

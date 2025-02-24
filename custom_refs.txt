@@ -7,6 +7,8 @@ base\boots\v_boots_item.ent
 base\boots\v_boots_m.ent
 base\boots\v_boots_w.ent
 base\boots\v_boots.app
+base\characters\cyberware\player\a0_005__strongarms\entities\meshes\textures\a0_003_ma__strongarms_holstered_d01.xbm
+base\characters\cyberware\player\a0_005__strongarms\entities\meshes\textures\a0_003_ma__strongarms_holstered_n01.xbm
 base\characters\garment\gang_aldecaldos\torso\t2_091_jacket__racing\textures\carbon_military_black.mlsetup
 base\characters\garment\gang_nomad\feet\s1_026_boot__heavy\textures\leather_black.mlsetup
 base\characters\garment\gang_valentino\torso\t1_060_tank__corset\textures\ml_t1_060_ma_tank__corset_black.mlsetup
