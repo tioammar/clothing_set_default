@@ -1,19 +1,21 @@
-Items.Jacket_19_basic_04_DLC_Legendary:
+Items.GOG_DLC_TShirt:
   $type: gamedataClothing_Record
   animFeatureName: ItemData
   animName: ui_garment_pose
   animSetResource: ''
-  appearanceName: t2_jacket_01_basic_01_
-  blueprint: Items.OuterChestClothingBlueprint
+  appearanceName: l1_shorts_03_basic_01_
+  blueprint: Items.LegClothingBlueprint
   canDrop: True
   crosshair: Crosshairs.None
   deprecated: False
-  dropObject: samurai_jacket_folded
+  dropObject: defaultItemDrop
   enableNpcRPGData: False
-  entityName: player_outer_torso_item
-  equipArea: EquipmentArea.ChestArmor
+  entityName: player_legs_item
+  equipArea: EquipmentArea.LegArmor
   friendlyName: ''
   garmentOffset: 0
+  icon: UIIcon.ItemIcon
+  iconPath: ''
   isCached: False
   isCoreCW: False
   isCustomizable: False
@@ -22,13 +24,13 @@ Items.Jacket_19_basic_04_DLC_Legendary:
   isSingleInstance: False
   itemCategory: ItemCategory.Clothing
   itemSecondaryAction: ItemAction.Equip
-  itemType: ItemType.Clo_OuterChest
+  itemType: ItemType.Clo_Legs
   localizedName: ''
   mass: 1
   minigameInstance: minigame_v2.DefaultItemMinigame
   parentAttachmentType: ParentAttachmentType.Skinned
   powerLevelDeterminedByParent: False
-  quality: Quality.Legendary
+  quality: Quality.Random
   qualityRestrictedByParent: False
   replicateWhenNotActive: False
   upgradeCostMult: 1
@@ -39,47 +41,47 @@ Items.Jacket_19_basic_04_DLC_Legendary:
   animationParameters: []
   appearanceSuffixes:
     - itemsFactoryAppearanceSuffix.Gender
-    - itemsFactoryAppearanceSuffix.Camera
   appearanceSuffixesOwnerOverride:
     - True
-    - False
   attachmentSlots: []
   buyPrice:
     - Price.Clothing
     - Price.BuyPrice_StreetCred_Discount
-    - Price.OuterChestClothing
-    - Price.Jacket
+    - Price.LegClothing
+    - Price.Shorts
   cameraForward: {x: 0, y: 0, z: 0}
   cameraUp: {x: 0, y: 0, z: 0}
   connections: []
-  displayName: LocKey("vik_gift_name")
+  displayName: LocKey#4334
   equipAreas: []
   equipPrereqs: []
   gameplayRestrictions:
     - GameplayRestriction.VehicleCombatNoInterruptions
   hairSkinnedMeshComponents: []
-  localizedDescription: LocKey("vik_gift_desc")
-  OnAttach:
-    - Items_glp.NoAnimation
+  localizedDescription: LocKey#4339
+  OnAttach: []
   OnEquip: []
   OnLooted: []
   parts: []
   placementSlots:
-    - AttachmentSlots.Torso
+    - AttachmentSlots.Legs
   previewBBoxOverride: []
   requiredSlots: []
   sellPrice:
     - Price.Clothing
     - Price.ClothingSellMultiplier
-    - Price.OuterChestClothing
-    - Price.Jacket
+    - Price.LegClothing
+    - Price.Shorts
   slotPartList:
     - Items.GenericRootSlotItem
+    - Items.GenericLegClothing_inline0
   slotPartListPreset: []
   tags:
     - Clothing
-    - ChestArmor
-    - EmptySlots
+    - LegArmor
+    - Simple
+    - Streetwear
+    - VoodooBoys
   variants: []
   visualTags: []
   effectors: []
@@ -91,18 +93,14 @@ Items.Jacket_19_basic_04_DLC_Legendary:
   statModifiers:
     - Items.ItemArmorToArmor
     - RTDB.Clothing_inline0
-    - Items.OuterChestClothingBase_inline0
-    - Items.OuterChestClothingBase_inline1
-    - Items.OuterChestClothingBase_inline2
-    - Items.OuterChestClothingBase_inline3
-    - Items.OuterChestClothingBase_inline4
-    - Items.OuterChestClothingBase_inline5
-    - Items.OuterChestClothingBase_inline6
-    - Items.OuterChestClothingBase_inline7
-    - Items.EmptySlotsJacket_inline0
+    - Items.LegClothingBase_inline0
+    - Items.LegClothingBase_inline1
+    - Items.LegClothingBase_inline2
+    - Items.LegClothingBase_inline3
+    - Items.LegClothingBase_inline4
+    - Items.LegClothingBase_inline5
+    - Items.LegClothingBase_inline6
+    - Items.LegClothingBase_inline7
+    - Items.Shorts_inline0
   statPools: []
   weakspots: []
-  scaleToPlayer: True
-  icon:
-    atlasResourcePath: base\gameplay\gui\common\icons\items\item_icons9.inkatlas
-    atlasPartName: clothing_player_outer_torso_item_t2_jacket_01_sq031_silverhand_samurai__Male_TPP_

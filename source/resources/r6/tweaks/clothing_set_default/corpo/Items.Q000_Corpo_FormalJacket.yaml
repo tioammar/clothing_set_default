@@ -1,17 +1,17 @@
-Items.Jacket_20_basic_01:
+Items.Q000_Corpo_FormalJacket:
   $type: gamedataClothing_Record
   animFeatureName: ItemData
   animName: ui_garment_pose
   animSetResource: ''
-  appearanceName: l1_shorts_03_basic_01_
-  blueprint: Items.LegClothingBlueprint
+  appearanceName: t2_formal_05_basic_02_
+  blueprint: Items.OuterChestClothingBlueprint
   canDrop: True
   crosshair: Crosshairs.None
   deprecated: False
   dropObject: defaultItemDrop
   enableNpcRPGData: False
-  entityName: player_legs_item
-  equipArea: EquipmentArea.LegArmor
+  entityName: player_outer_torso_item
+  equipArea: EquipmentArea.ChestArmor
   friendlyName: ''
   garmentOffset: 0
   icon: UIIcon.ItemIcon
@@ -24,13 +24,13 @@ Items.Jacket_20_basic_01:
   isSingleInstance: False
   itemCategory: ItemCategory.Clothing
   itemSecondaryAction: ItemAction.Equip
-  itemType: ItemType.Clo_Legs
+  itemType: ItemType.Clo_OuterChest
   localizedName: ''
   mass: 1
   minigameInstance: minigame_v2.DefaultItemMinigame
   parentAttachmentType: ParentAttachmentType.Skinned
   powerLevelDeterminedByParent: False
-  quality: Quality.Random
+  quality: Quality.Common
   qualityRestrictedByParent: False
   replicateWhenNotActive: False
   upgradeCostMult: 1
@@ -41,47 +41,48 @@ Items.Jacket_20_basic_01:
   animationParameters: []
   appearanceSuffixes:
     - itemsFactoryAppearanceSuffix.Gender
+    - itemsFactoryAppearanceSuffix.Camera
   appearanceSuffixesOwnerOverride:
     - True
+    - False
   attachmentSlots: []
   buyPrice:
     - Price.Clothing
     - Price.BuyPrice_StreetCred_Discount
-    - Price.LegClothing
-    - Price.Shorts
+    - Price.OuterChestClothing
+    - Price.FormalJacket
   cameraForward: {x: 0, y: 0, z: 0}
   cameraUp: {x: 0, y: 0, z: 0}
   connections: []
-  displayName: LocKey#4334
+  displayName: LocKey#48337
   equipAreas: []
   equipPrereqs: []
   gameplayRestrictions:
     - GameplayRestriction.VehicleCombatNoInterruptions
   hairSkinnedMeshComponents: []
-  localizedDescription: LocKey#4339
+  localizedDescription: LocKey#48338
   OnAttach: []
   OnEquip: []
   OnLooted: []
   parts: []
   placementSlots:
-    - AttachmentSlots.Legs
+    - AttachmentSlots.Torso
   previewBBoxOverride: []
   requiredSlots: []
   sellPrice:
     - Price.Clothing
     - Price.ClothingSellMultiplier
-    - Price.LegClothing
-    - Price.Shorts
+    - Price.OuterChestClothing
+    - Price.FormalJacket
   slotPartList:
     - Items.GenericRootSlotItem
-    - Items.GenericLegClothing_inline0
   slotPartListPreset: []
   tags:
     - Clothing
-    - LegArmor
+    - ChestArmor
+    - EmptySlots
     - Simple
-    - Streetwear
-    - VoodooBoys
+    - Formal
   variants: []
   visualTags: []
   effectors: []
@@ -93,14 +94,15 @@ Items.Jacket_20_basic_01:
   statModifiers:
     - Items.ItemArmorToArmor
     - RTDB.Clothing_inline0
-    - Items.LegClothingBase_inline0
-    - Items.LegClothingBase_inline1
-    - Items.LegClothingBase_inline2
-    - Items.LegClothingBase_inline3
-    - Items.LegClothingBase_inline4
-    - Items.LegClothingBase_inline5
-    - Items.LegClothingBase_inline6
-    - Items.LegClothingBase_inline7
-    - Items.Shorts_inline0
+    - Items.OuterChestClothingBase_inline0
+    - Items.OuterChestClothingBase_inline1
+    - Items.OuterChestClothingBase_inline2
+    - Items.OuterChestClothingBase_inline3
+    - Items.OuterChestClothingBase_inline4
+    - Items.OuterChestClothingBase_inline5
+    - Items.OuterChestClothingBase_inline6
+    - Items.OuterChestClothingBase_inline7
+    - Items.EmptySlotsFormalJacket_inline0
+    - Items.Q000_Corpo_FormalJacket_inline0
   statPools: []
   weakspots: []
