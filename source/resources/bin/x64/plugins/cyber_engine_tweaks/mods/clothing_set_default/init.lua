@@ -50,6 +50,8 @@ registerForEvent("onInit", function()
         if tostring(factName.value) == "ranged_combat_tutorial" and not is_init then
             print("clothing_set_default: checkpoint_" .. tostring(factName.value))
             RPGManager.ForceEquipItemOnPlayer(GetPlayer(),"Items.Q001_Racer", true)
+            Game.AddToInventory("Items.Nomad_01_Set_Jacket", 1)
+            Game.AddToInventory("Items.Q001_Glasses", 1)
             is_init = true
             statusPrint()
         end
@@ -62,7 +64,6 @@ registerForEvent("onInit", function()
         if tostring(entry.id) == "johnny_talk" and not is_johnny then
             print("clothing_set_default: checkpoint_" .. tostring(entry.id))
             Game.AddToInventory("Items.V_Necklace_titanium", 1)
-            Game.AddToInventory("Items.Nomad_01_Set_Jacket", 1)
             is_johnny = true
             statusPrint()
         end

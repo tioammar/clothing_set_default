@@ -52,6 +52,7 @@ base\v_boots.csv
 base\v_cyberdeck.csv
 bushido\localization\en-us.json
 clothing\localization\en-us.json
+ep1\characters\main_npc\reed\textures\ml_t1_001_mb_tshirt__reed_black.mlsetup
 ep1\weapons\firearms\handgun\arasaka_kenshin\entities\meshes\w_handgun__arasaka_kenshin__base1_02_bushido_decal_01_d.mesh
 ep1\weapons\firearms\handgun\arasaka_kenshin\entities\meshes\w_handgun__arasaka_kenshin__base1_02_bushido_decal_01_n.mesh
 ep1\weapons\firearms\handgun\arasaka_kenshin\entities\meshes\w_handgun__arasaka_kenshin__base1_02_bushido_shadow.mesh
