@@ -59,15 +59,10 @@ registerForEvent("onInit", function()
     ---@param this JournalManager
     ---@param entry JournalEntry
     function(this, entry)
-        if tostring(entry.id) == "01_talk_to_the_mechanic" and not is_nomad then
-            print("clothing_set_default: checkpoint_" .. tostring(entry.id))
-            Game.AddToInventory("Items.Nomad_01_Set_Jacket", 1)
-            is_nomad = true
-        end
-
         if tostring(entry.id) == "johnny_talk" and not is_johnny then
             print("clothing_set_default: checkpoint_" .. tostring(entry.id))
             Game.AddToInventory("Items.V_Necklace_titanium", 1)
+            Game.AddToInventory("Items.Nomad_01_Set_Jacket", 1)
             is_johnny = true
             statusPrint()
         end
