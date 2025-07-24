@@ -3,7 +3,7 @@ Items.Q001_TShirt:
   animFeatureName: ItemData
   animName: ui_garment_pose
   animSetResource: ''
-  appearanceName: set_01_q202_epilogue_t1_
+  appearanceName: t1_tshirt_12_basic_01_
   blueprint: Items.InnerChestClothingBlueprint
   canDrop: True
   crosshair: Crosshairs.None
@@ -14,8 +14,6 @@ Items.Q001_TShirt:
   equipArea: EquipmentArea.InnerChest
   friendlyName: ''
   garmentOffset: 0
-  icon: UIIcon.ItemIcon
-  iconPath: ''
   isCached: False
   isCoreCW: False
   isCustomizable: False
@@ -102,3 +100,6 @@ Items.Q001_TShirt:
   statPools: []
   weakspots: []
   scaleToPlayer: True
+  icon:
+    atlasResourcePath: base\gameplay\gui\common\icons\items\item_icons20.inkatlas
+    atlasPartName: clothing_player_inner_torso_item_set_01_q202_epilogue_t1__Male_
