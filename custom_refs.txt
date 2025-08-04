@@ -68,6 +68,7 @@ ep1\weapons\firearms\handgun\constitutional_unity\entities\meshes\w_handgun__con
 etc\localization\en-us.json
 glory\localization\en-us.json
 iconic_glory\localization\en-us.json
+overture\localization\en-us.json
 raem\accessories\icons\rm_neck_bulletv_l_icons.inkatlas
 raem\accessories\icons\rm_neck_bulletv_l_icons.xbm
 raem\accessories\icons\rm_neck_bulletv_s_icons.inkatlas
