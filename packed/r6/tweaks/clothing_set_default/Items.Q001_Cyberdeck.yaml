@@ -6,7 +6,7 @@ Items.GOG_Galaxy_TShirt:
   appearanceName: v_cyberdeck_
   displayName: LocKey("v_cyberdeck_name")
   localizedDescription: LocKey("v_cyberdeck_desc")
-  quality: Quality.Legendary
+  quality: Quality.Random
   appearanceSuffixes: [ itemsFactoryAppearanceSuffix.Gender ]
   statModifiers:
     - !append Character.ScaleToPlayerLevel

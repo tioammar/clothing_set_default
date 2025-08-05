@@ -12,7 +12,7 @@ Items.V_Necklace_${color}:
     - { icon: 10, color: titanium }
   $base: Items.GenericInnerChestClothing
   entityName: rm_neck_bulletv
-  quality: Quality.Legendary
+  quality: Quality.Random
   placementSlots: 
     - !append OutfitSlots.NecklaceShort
   statModifiers:

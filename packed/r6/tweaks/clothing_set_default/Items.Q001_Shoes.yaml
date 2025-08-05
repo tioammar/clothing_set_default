@@ -29,7 +29,7 @@ Items.Q001_Shoes:
   movementSound: Items.FootClothingBase_inline0
   parentAttachmentType: ParentAttachmentType.Skinned
   powerLevelDeterminedByParent: False
-  quality: Quality.Legendary
+  quality: Quality.Random
   qualityRestrictedByParent: False
   replicateWhenNotActive: False
   upgradeCostMult: 1
