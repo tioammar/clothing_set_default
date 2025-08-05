@@ -1,8 +1,42 @@
 LootTables.mq000_vs_apartment_wardrobe:
   $type: gamedataLootTable_Record
   lootGenerationType: dropChance
-  maxItemsToLoot: 1
-  minItemsToLoot: 1
-  lootItems: []
+  maxItemsToLoot: 3
+  minItemsToLoot: 3
+  lootItems:
+    - LootTables.mq000_vs_apartment_wardrobe_inline0
+    - LootTables.mq000_vs_apartment_wardrobe_inline1
+    - LootTables.mq000_vs_apartment_wardrobe_inline2
   lootTableInclusions: []
   queries: []
+
+LootTables.mq000_vs_apartment_wardrobe_inline0:
+  $type: gamedataLootItem_Record
+  itemID: Items.Q001_Glasses
+  dropChance: 1
+  dropCountMax: 1
+  dropCountMin: 1
+  dropChanceModifiers: []
+  quantityModifiers: []
+  statModifiers: []
+
+LootTables.mq000_vs_apartment_wardrobe_inline1:
+  $type: gamedataLootItem_Record
+  itemID: Items.Solo_01_Set_TShirt
+  dropChance: 1
+  dropCountMax: 1
+  dropCountMin: 1
+  dropChanceModifiers: []
+  quantityModifiers: []
+  statModifiers: []
+
+LootTables.mq000_vs_apartment_wardrobe_inline2:
+  $type: gamedataLootItem_Record
+  itemID: Items.TShirt_02_basic_05
+  dropChance: 1
+  dropCountMax: 1
+  dropCountMin: 1
+  dropChanceModifiers: []
+  quantityModifiers: []
+  statModifiers: []
+

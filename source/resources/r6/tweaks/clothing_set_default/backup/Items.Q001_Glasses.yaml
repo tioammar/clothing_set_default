@@ -30,7 +30,7 @@ Items.Q001_Glasses:
   minigameInstance: minigame_v2.DefaultItemMinigame
   parentAttachmentType: ParentAttachmentType.Skinned
   powerLevelDeterminedByParent: False
-  quality: Quality.Legendary
+  quality: Quality.Random
   qualityRestrictedByParent: False
   replicateWhenNotActive: False
   upgradeCostMult: 1
