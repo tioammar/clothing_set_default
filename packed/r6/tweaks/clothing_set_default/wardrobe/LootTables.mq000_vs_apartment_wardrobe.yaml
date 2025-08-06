@@ -1,11 +1,12 @@
 LootTables.mq000_vs_apartment_wardrobe:
   $type: gamedataLootTable_Record
   lootGenerationType: dropChance
-  maxItemsToLoot: 2
-  minItemsToLoot: 2
+  maxItemsToLoot: 3
+  minItemsToLoot: 3
   lootItems:
     - LootTables.mq000_vs_apartment_wardrobe_inline0
     - LootTables.mq000_vs_apartment_wardrobe_inline1
+    - LootTables.mq000_vs_apartment_wardrobe_inline2
   lootTableInclusions: []
   queries: []
 
@@ -22,6 +23,16 @@ LootTables.mq000_vs_apartment_wardrobe_inline0:
 LootTables.mq000_vs_apartment_wardrobe_inline1:
   $type: gamedataLootItem_Record
   itemID: Items.Q001_TShirt_01
+  dropChance: 1
+  dropCountMax: 1
+  dropCountMin: 1
+  dropChanceModifiers: []
+  quantityModifiers: []
+  statModifiers: []
+
+LootTables.mq000_vs_apartment_wardrobe_inline2:
+  $type: gamedataLootItem_Record
+  itemID: Items.Q000_Nomad_Vest
   dropChance: 1
   dropCountMax: 1
   dropCountMin: 1
