@@ -1,8 +1,8 @@
 LootTables.mq000_vs_apartment_wardrobe:
   $type: gamedataLootTable_Record
   lootGenerationType: dropChance
-  maxItemsToLoot: 4
-  minItemsToLoot: 4
+  maxItemsToLoot: 3
+  minItemsToLoot: 3
   lootItems:
     - LootTables.mq000_vs_apartment_wardrobe_inline0
     - LootTables.mq000_vs_apartment_wardrobe_inline1
