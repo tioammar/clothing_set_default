@@ -6,7 +6,6 @@ LootTables.mq000_vs_apartment_wardrobe:
   lootItems:
     - LootTables.mq000_vs_apartment_wardrobe_inline0
     - LootTables.mq000_vs_apartment_wardrobe_inline1
-    - LootTables.mq000_vs_apartment_wardrobe_inline2
   lootTableInclusions: []
   queries: []
 
@@ -22,31 +21,11 @@ LootTables.mq000_vs_apartment_wardrobe_inline0:
 
 LootTables.mq000_vs_apartment_wardrobe_inline1:
   $type: gamedataLootItem_Record
-  itemID: Items.Solo_01_Set_TShirt
+  itemID: Items.Q001_TShirt_01
   dropChance: 1
   dropCountMax: 1
   dropCountMin: 1
   dropChanceModifiers: []
   quantityModifiers: []
   statModifiers: []
-
-LootTables.mq000_vs_apartment_wardrobe_inline2:
-  $type: gamedataLootItem_Record
-  itemID: Items.TShirt_02_basic_05
-  dropChance: 1
-  dropCountMax: 1
-  dropCountMin: 1
-  dropChanceModifiers: []
-  quantityModifiers: []
-  statModifiers: []
-
-# LootTables.mq000_vs_apartment_wardrobe_inline3:
-#   $type: gamedataLootItem_Record
-#   itemID: Items.Q001_TShirt_01
-#   dropChance: 1
-#   dropCountMax: 1
-#   dropCountMin: 1
-#   dropChanceModifiers: []
-#   quantityModifiers: []
-#   statModifiers: []
 
