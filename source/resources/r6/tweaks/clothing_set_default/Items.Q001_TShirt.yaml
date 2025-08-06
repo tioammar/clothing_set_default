@@ -3,7 +3,7 @@ Items.Q001_TShirt:
   animFeatureName: ItemData
   animName: ui_garment_pose
   animSetResource: ''
-  appearanceName: t1_tshirt_12_basic_01_
+  appearanceName: t1_tshirt_02_basic_01_
   blueprint: Items.InnerChestClothingBlueprint
   canDrop: True
   crosshair: Crosshairs.None
@@ -72,11 +72,13 @@ Items.Q001_TShirt:
     - Price.TShirt
   slotPartList:
     - Items.GenericRootSlotItem
-    - Items.GenericInnerChestClothing_inline0
   slotPartListPreset: []
   tags:
     - Clothing
     - InnerChestArmor
+    - EmptySlots
+    - Simple
+    - Punk
   variants: []
   visualTags: []
   effectors: []
@@ -96,10 +98,10 @@ Items.Q001_TShirt:
     - Items.InnerChestClothingBase_inline5
     - Items.InnerChestClothingBase_inline6
     - Items.InnerChestClothingBase_inline7
-    - Items.TShirt_inline0
+    - Items.EmptySlotsTShirt_inline0
   statPools: []
   weakspots: []
   scaleToPlayer: True
   icon:
-    atlasResourcePath: base\gameplay\gui\common\icons\items\item_icons20.inkatlas
-    atlasPartName: clothing_player_inner_torso_item_set_01_q202_epilogue_t1__Male_
+    atlasResourcePath: base\gameplay\gui\common\icons\items\item_icons5.inkatlas
+    atlasPartName: clothing_player_inner_torso_item_t1_tshirt_02_gog_galaxy__Male_

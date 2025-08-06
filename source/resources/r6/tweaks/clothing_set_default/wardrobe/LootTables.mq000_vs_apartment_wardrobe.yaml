@@ -1,8 +1,8 @@
 LootTables.mq000_vs_apartment_wardrobe:
   $type: gamedataLootTable_Record
   lootGenerationType: dropChance
-  maxItemsToLoot: 3
-  minItemsToLoot: 3
+  maxItemsToLoot: 4
+  minItemsToLoot: 4
   lootItems:
     - LootTables.mq000_vs_apartment_wardrobe_inline0
     - LootTables.mq000_vs_apartment_wardrobe_inline1
@@ -39,4 +39,14 @@ LootTables.mq000_vs_apartment_wardrobe_inline2:
   dropChanceModifiers: []
   quantityModifiers: []
   statModifiers: []
+
+# LootTables.mq000_vs_apartment_wardrobe_inline3:
+#   $type: gamedataLootItem_Record
+#   itemID: Items.Q001_TShirt_01
+#   dropChance: 1
+#   dropCountMax: 1
+#   dropCountMin: 1
+#   dropChanceModifiers: []
+#   quantityModifiers: []
+#   statModifiers: []
 
