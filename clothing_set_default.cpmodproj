@@ -5,4 +5,7 @@
   <Author>tioammar</Author>
   <Email />
   <Version>1.0.0</Version>
+  <OpenProjectFiles>clothing\localization\en-us.json</OpenProjectFiles>
+  <OpenProjectFiles>base\gameplay\gui\common\icons\items\item_icons8.inkatlas</OpenProjectFiles>
+  <OpenProjectFiles>base\gameplay\gui\common\icons\items\item_icons9.inkatlas</OpenProjectFiles>
 </CP77Mod>
