@@ -106,5 +106,5 @@ Items.Q001_Racer:
   statPools: []
   weakspots: []
   icon:
-    atlasResourcePath: base\gameplay\gui\common\icons\items\item_icons11.inkatlas
-    atlasPartName: clothing_player_outer_torso_item_t2_jacket_10_q114_aldecaldo__Male_TPP_
+    atlasResourcePath: base\gameplay\gui\common\icons\items\item_icons7.inkatlas
+    atlasPartName: clothing_player_outer_torso_item_t2_jacket_10_old_01__Male_TPP_
