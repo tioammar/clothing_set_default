@@ -14,6 +14,7 @@ base\characters\garment\gang_aldecaldos\torso\t2_091_jacket__racing\textures\car
 base\characters\garment\gang_nomad\feet\s1_026_boot__heavy\textures\leather_black.mlsetup
 base\characters\garment\gang_valentino\torso\t1_060_tank__corset\textures\ml_t1_060_ma_tank__corset_black.mlsetup
 base\characters\garment\player_equipment\torso\t2_084_jacket__short_sleeves\t2_084_pma_v_short_sleeves.mesh
+base\characters\garment\player_equipment\torso\t2_084_jacket__short_sleeves\textures\ml_t2_084_pma_jacket__short_sleeves_black_v.mlsetup
 base\characters\garment\player_equipment\torso\t2_084_pma_v_short_sleeves.ent
 base\cyberdeck\icons\v_cyberdeck.inkatlas
 base\cyberdeck\icons\v_cyberdeck.xbm

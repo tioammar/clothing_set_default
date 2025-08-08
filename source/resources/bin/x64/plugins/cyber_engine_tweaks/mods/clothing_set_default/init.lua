@@ -1,6 +1,5 @@
 local is_init = false
 local is_johnny = false
-local is_nomad = false
 local GameSession = require('GameSession')
 
 function statusSet()
@@ -14,7 +13,7 @@ function statusReset()
 end
 
 function statusPrint()
-    print("clothing_set_default: " .. (is_init and "racer_1" or "racer_0"))
+    print("clothing_set_default: " .. (is_init and "jacket_1" or "jacket_0"))
     print("clothing_set_default: " .. (is_johnny and "necklace_1" or "necklace_0"))
 end
 
@@ -49,7 +48,7 @@ registerForEvent("onInit", function()
     function(this, factName, value)
         if tostring(factName.value) == "ranged_combat_tutorial" and not is_init then
             print("clothing_set_default: checkpoint_" .. tostring(factName.value))
-            RPGManager.ForceEquipItemOnPlayer(GetPlayer(),"Items.Q001_Racer", true)
+            RPGManager.ForceEquipItemOnPlayer(GetPlayer(),"Items.Q001_Jacket", true)
             is_init = true
             statusPrint()
         end
@@ -103,15 +102,21 @@ registerForEvent("onDraw", function()
                     end
 
                     ImGui.AlignTextToFramePadding()
-                    ImGui.Text("Nomad Jacket")
-                    if ImGui.Button("Add Nomad Jacket!", -1, 0) then
-                        Game.AddToInventory("Items.Nomad_01_Set_Jacket", 1)
+                    ImGui.Text("V's Racer Jacket")
+                    if ImGui.Button("Add Racer Jacket!", -1, 0) then
+                        Game.AddToInventory("Items.Q001_Racer", 1)
                     end
 
                     ImGui.AlignTextToFramePadding()
                     ImGui.Text("V's Plain Solo T-Shirt")
                     if ImGui.Button("Add T-Shirt!", -1, 0) then
                         Game.AddToInventory("Items.Q001_TShirt_01", 1)
+                    end
+
+                    ImGui.AlignTextToFramePadding()
+                    ImGui.Text("Nomad Jacket")
+                    if ImGui.Button("Add Nomad Jacket!", -1, 0) then
+                        Game.AddToInventory("Items.Nomad_01_Set_Jacket", 1)
                     end
                 ImGui.EndTabItem()
                 end

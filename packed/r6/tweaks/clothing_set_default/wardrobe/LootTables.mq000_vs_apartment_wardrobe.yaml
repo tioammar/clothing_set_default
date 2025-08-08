@@ -21,7 +21,7 @@ LootTables.mq000_vs_apartment_wardrobe_inline0:
 
 LootTables.mq000_vs_apartment_wardrobe_inline1:
   $type: gamedataLootItem_Record
-  itemID: Items.Q000_Nomad_noPatch_Vest
+  itemID: Items.Q000_Nomad_Vest
   dropChance: 1
   dropCountMax: 1
   dropCountMin: 1
