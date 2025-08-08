@@ -104,4 +104,4 @@ Items.Q001_TShirt:
   scaleToPlayer: True
   icon:
     atlasResourcePath: base\gameplay\gui\common\icons\items\item_icons5.inkatlas
-    atlasPartName: clothing_player_inner_torso_item_t1_tshirt_02_gog_galaxy__Male_
+    atlasPartName: clothing_player_inner_torso_item_t1_tshirt_02_q001__Male_
