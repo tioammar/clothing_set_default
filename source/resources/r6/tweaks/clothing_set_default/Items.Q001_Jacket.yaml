@@ -3,7 +3,7 @@ Items.Q001_Jacket:
   animFeatureName: ItemData
   animName: ui_garment_pose
   animSetResource: ''
-  appearanceName: t2_jacket_01_rich_01_
+  appearanceName: set_01__red_play_jacket_t2_
   blueprint: Items.OuterChestClothingBlueprint
   canDrop: True
   crosshair: Crosshairs.None
@@ -14,6 +14,8 @@ Items.Q001_Jacket:
   equipArea: EquipmentArea.ChestArmor
   friendlyName: ''
   garmentOffset: 0
+  icon: UIIcon.ItemIcon
+  iconPath: ''
   isCached: False
   isCoreCW: False
   isCustomizable: False
@@ -52,15 +54,14 @@ Items.Q001_Jacket:
   cameraForward: {x: 0, y: 0, z: 0}
   cameraUp: {x: 0, y: 0, z: 0}
   connections: []
-  displayName: LocKey("v_samurai_name")
+  displayName: LocKey("v_witcher_name")
   equipAreas: []
   equipPrereqs: []
   gameplayRestrictions:
     - GameplayRestriction.VehicleCombatNoInterruptions
   hairSkinnedMeshComponents: []
-  localizedDescription: LocKey("v_samurai_desc")
-  OnAttach:
-    - Items_glp.PlayerPhotoModeCorrectivePose
+  localizedDescription: LocKey("v_witcher_desc")
+  OnAttach: []
   OnEquip: []
   OnLooted: []
   parts: []
@@ -75,7 +76,6 @@ Items.Q001_Jacket:
     - Price.Jacket
   slotPartList:
     - Items.GenericRootSlotItem
-    - Items.GenericOuterChestClothing_inline0
   slotPartListPreset: []
   tags:
     - Clothing
@@ -100,10 +100,6 @@ Items.Q001_Jacket:
     - Items.OuterChestClothingBase_inline5
     - Items.OuterChestClothingBase_inline6
     - Items.OuterChestClothingBase_inline7
-    - Items.Jacket_inline0
+    - Items.EmptySlotsJacket_inline0
   statPools: []
   weakspots: []
-  scaleToPlayer: True
-  icon:
-    atlasResourcePath: base\gameplay\gui\common\icons\items\item_icons9.inkatlas
-    atlasPartName: clothing_player_outer_torso_item_t2_jacket_01_basic_02__Male_TPP_

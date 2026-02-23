@@ -49,6 +49,7 @@ registerForEvent("onInit", function()
         if tostring(factName.value) == "ranged_combat_tutorial" and not is_init then
             print("clothing_set_default: checkpoint_" .. tostring(factName.value))
             RPGManager.ForceEquipItemOnPlayer(GetPlayer(),"Items.Q001_Jacket", true)
+            RPGManager.ForceEquipItemOnPlayer(GetPlayer(),"Items.Q001_Glasses", true)
             is_init = true
             statusPrint()
         end
