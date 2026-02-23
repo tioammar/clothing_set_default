@@ -103,13 +103,7 @@ registerForEvent("onDraw", function()
                     end
 
                     ImGui.AlignTextToFramePadding()
-                    ImGui.Text("V's Racer Jacket")
-                    if ImGui.Button("Add Racer Jacket!", -1, 0) then
-                        Game.AddToInventory("Items.Q001_Racer", 1)
-                    end
-
-                    ImGui.AlignTextToFramePadding()
-                    ImGui.Text("V's Plain Solo T-Shirt")
+                    ImGui.Text("V's Plain Solo Sleeveless T-Shirt")
                     if ImGui.Button("Add T-Shirt!", -1, 0) then
                         Game.AddToInventory("Items.Q001_TShirt_01", 1)
                     end

@@ -3,12 +3,12 @@ Items.Q001_Samurai:
   animFeatureName: ItemData
   animName: ui_garment_pose
   animSetResource: ''
-  appearanceName: t2_jacket_01_basic_01_
+  appearanceName: t2_jacket_01_rich_01_
   blueprint: Items.OuterChestClothingBlueprint
   canDrop: True
   crosshair: Crosshairs.None
   deprecated: False
-  dropObject: samurai_jacket_folded
+  dropObject: defaultItemDrop
   enableNpcRPGData: False
   entityName: player_outer_torso_item
   equipArea: EquipmentArea.ChestArmor
@@ -60,7 +60,7 @@ Items.Q001_Samurai:
   hairSkinnedMeshComponents: []
   localizedDescription: LocKey("v_samurai_desc")
   OnAttach:
-    - Items_glp.NoAnimation
+    - Items_glp.PlayerPhotoModeCorrectivePose
   OnEquip: []
   OnLooted: []
   parts: []
@@ -75,12 +75,12 @@ Items.Q001_Samurai:
     - Price.Jacket
   slotPartList:
     - Items.GenericRootSlotItem
+    - Items.GenericOuterChestClothing_inline0
   slotPartListPreset: []
   tags:
     - Clothing
     - ChestArmor
     - EmptySlots
-    - Quest
   variants: []
   visualTags: []
   effectors: []
@@ -100,10 +100,10 @@ Items.Q001_Samurai:
     - Items.OuterChestClothingBase_inline5
     - Items.OuterChestClothingBase_inline6
     - Items.OuterChestClothingBase_inline7
-    - Items.EmptySlotsJacket_inline0
+    - Items.Jacket_inline0
   statPools: []
   weakspots: []
   scaleToPlayer: True
   icon:
     atlasResourcePath: base\gameplay\gui\common\icons\items\item_icons9.inkatlas
-    atlasPartName: clothing_player_outer_torso_item_t2_jacket_01_sq031_silverhand_samurai__Male_TPP_
+    atlasPartName: clothing_player_outer_torso_item_t2_jacket_01_basic_02__Male_TPP_
