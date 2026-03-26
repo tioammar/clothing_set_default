@@ -3,7 +3,7 @@
     "WolvenKitVersion": "8.11.0",
     "WKitJsonVersion": "0.0.8",
     "GameVersion": 2000,
-    "ExportedDateTime": "2025-08-06T12:22:41.017Z",
+    "ExportedDateTime": "2026-03-26T03:19:38.477Z",
     "DataType": "CR2W",
     "ArchiveFileName": ""
   },
@@ -25,7 +25,7 @@
             "DepotPath": {
               "$type": "ResourcePath",
               "$storage": "string",
-              "$value": "base\\surfaces\\materials\\fabric\\cotton_shirt\\cotton_shirt_clean_01_30.mltemplate"
+              "$value": "base\\surfaces\\materials\\fabric\\canvas\\canvas_clean_01_30.mltemplate"
             },
             "Flags": "Default"
           },
@@ -87,7 +87,7 @@
             "DepotPath": {
               "$type": "ResourcePath",
               "$storage": "string",
-              "$value": "base\\surfaces\\materials\\fabric\\cotton_shirt\\cotton_shirt_clean_01_30.mltemplate"
+              "$value": "base\\surfaces\\materials\\fabric\\canvas\\canvas_clean_01_30.mltemplate"
             },
             "Flags": "Default"
           },
@@ -135,7 +135,7 @@
           "roughLevelsOut": {
             "$type": "CName",
             "$storage": "string",
-            "$value": "feaf5b"
+            "$value": "null"
           }
         },
         {
@@ -212,7 +212,7 @@
             "DepotPath": {
               "$type": "ResourcePath",
               "$storage": "string",
-              "$value": "base\\surfaces\\materials\\fabric\\cotton_shirt\\cotton_shirt_clean_01_30.mltemplate"
+              "$value": "base\\surfaces\\materials\\fabric\\canvas\\canvas_clean_01_30.mltemplate"
             },
             "Flags": "Default"
           },
@@ -274,7 +274,7 @@
             "DepotPath": {
               "$type": "ResourcePath",
               "$storage": "string",
-              "$value": "base\\surfaces\\materials\\fabric\\cotton_shirt\\cotton_shirt_clean_01_30.mltemplate"
+              "$value": "base\\surfaces\\materials\\fabric\\canvas\\canvas_clean_01_30.mltemplate"
             },
             "Flags": "Default"
           },
@@ -337,7 +337,7 @@
             "DepotPath": {
               "$type": "ResourcePath",
               "$storage": "string",
-              "$value": "base\\surfaces\\materials\\fabric\\cotton_shirt\\cotton_shirt_clean_01_30.mltemplate"
+              "$value": "base\\surfaces\\materials\\fabric\\canvas\\canvas_clean_01_30.mltemplate"
             },
             "Flags": "Default"
           },
@@ -841,7 +841,7 @@
             "DepotPath": {
               "$type": "ResourcePath",
               "$storage": "string",
-              "$value": "base\\surfaces\\materials\\fabric\\cotton_shirt\\cotton_shirt_clean_01_30.mltemplate"
+              "$value": "base\\surfaces\\materials\\paint\\paint_thick\\paint_thick_chequer_01_300.mltemplate"
             },
             "Flags": "Default"
           },
@@ -890,7 +890,7 @@
           "roughLevelsOut": {
             "$type": "CName",
             "$storage": "string",
-            "$value": "feaf5b"
+            "$value": "null"
           }
         },
         {

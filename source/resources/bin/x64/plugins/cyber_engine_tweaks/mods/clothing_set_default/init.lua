@@ -84,41 +84,5 @@ end)
 
 -- Main GUI logic
 registerForEvent("onDraw", function()
-	if(CetOpen) then
-		ImGui.SetNextWindowSize(600, 600)
-		if not ImGui.Begin("Clothing Set Additional Items") then
-            ImGui.End()
-            return
-		end
-		if ImGui.BeginChild("Child Window 16", 0, 0, true) then
-            if ImGui.BeginTabBar("##TabBar4") then
-                if ImGui.BeginTabItem("Clothes") then
-                    ImGui.AlignTextToFramePadding()
-                    ImGui.Text("Requires 'Clothing Set Default'")
-
-                    ImGui.AlignTextToFramePadding()
-                    ImGui.Text("Plain Samurai Jacket")
-                    if ImGui.Button("Add Samurai Jacket!", -1, 0) then
-                        Game.AddToInventory("Items.Q001_Samurai", 1)
-                    end
-
-                    ImGui.AlignTextToFramePadding()
-                    ImGui.Text("V's Plain Solo Sleeveless T-Shirt")
-                    if ImGui.Button("Add T-Shirt!", -1, 0) then
-                        Game.AddToInventory("Items.Q001_TShirt_01", 1)
-                    end
-
-                    ImGui.AlignTextToFramePadding()
-                    ImGui.Text("Nomad Jacket")
-                    if ImGui.Button("Add Nomad Jacket!", -1, 0) then
-                        Game.AddToInventory("Items.Nomad_01_Set_Jacket", 1)
-                    end
-                ImGui.EndTabItem()
-                end
-            ImGui.EndTabBar()
-            end
-		ImGui.EndChild()
-		end
-		ImGui.End()
-	end
+    -- do nothing 
 end)
