@@ -8,6 +8,15 @@ base\boots\v_boots_item.ent
 base\boots\v_boots_m.ent
 base\boots\v_boots_w.ent
 base\boots\v_boots.app
+base\characters\appearances\player\items\feet\proxy\s1_boots_03_basic_01_m\s1_boots_03_basic_01_m.mesh
+base\characters\appearances\player\items\feet\proxy\s1_boots_03_basic_02_m\s1_boots_03_basic_02_m.mesh
+base\characters\appearances\player\items\feet\proxy\s1_boots_03_basic_02_w\s1_boots_03_basic_02_w.mesh
+base\characters\appearances\player\items\feet\proxy\s1_boots_03_old_01_m\s1_boots_03_old_01_m.mesh
+base\characters\appearances\player\items\feet\proxy\s1_boots_03_old_02_m\s1_boots_03_old_02_m.mesh
+base\characters\appearances\player\items\feet\proxy\s1_boots_03_old_02_w\s1_boots_03_old_02_w.mesh
+base\characters\appearances\player\items\feet\proxy\s1_boots_03_rich_01_m\s1_boots_03_rich_01_m.mesh
+base\characters\appearances\player\items\feet\proxy\s1_boots_03_rich_02_m\s1_boots_03_rich_02_m.mesh
+base\characters\appearances\player\items\feet\proxy\s1_boots_03_rich_02_w\s1_boots_03_rich_02_w.mesh
 base\characters\cyberware\player\a0_005__strongarms\entities\meshes\textures\a0_003_ma__strongarms_holstered_d01.xbm
 base\characters\cyberware\player\a0_005__strongarms\entities\meshes\textures\a0_003_ma__strongarms_holstered_n01.xbm
 base\characters\garment\citizen_casual\torso\t1_079_tshirt__casual\textures\ml_t1_079_v.mlsetup
