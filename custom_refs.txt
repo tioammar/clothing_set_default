@@ -17,6 +17,15 @@ base\characters\appearances\player\items\feet\proxy\s1_boots_03_old_02_w\s1_boot
 base\characters\appearances\player\items\feet\proxy\s1_boots_03_rich_01_m\s1_boots_03_rich_01_m.mesh
 base\characters\appearances\player\items\feet\proxy\s1_boots_03_rich_02_m\s1_boots_03_rich_02_m.mesh
 base\characters\appearances\player\items\feet\proxy\s1_boots_03_rich_02_w\s1_boots_03_rich_02_w.mesh
+base\characters\appearances\player\items\legs\proxy\l1_pants_04_basic_01_w\l1_pants_04_basic_01_w.mesh
+base\characters\appearances\player\items\legs\proxy\l1_pants_04_basic_02_w\l1_pants_04_basic_02_w.mesh
+base\characters\appearances\player\items\legs\proxy\l1_pants_04_basic_03_w\l1_pants_04_basic_03_w.mesh
+base\characters\appearances\player\items\legs\proxy\l1_pants_04_old_01_w\l1_pants_04_old_01_w.mesh
+base\characters\appearances\player\items\legs\proxy\l1_pants_04_old_02_w\l1_pants_04_old_02_w.mesh
+base\characters\appearances\player\items\legs\proxy\l1_pants_04_old_03_w\l1_pants_04_old_03_w.mesh
+base\characters\appearances\player\items\legs\proxy\l1_pants_04_rich_01_w\l1_pants_04_rich_01_w.mesh
+base\characters\appearances\player\items\legs\proxy\l1_pants_04_rich_02_w\l1_pants_04_rich_02_w.mesh
+base\characters\appearances\player\items\legs\proxy\l1_pants_04_rich_03_w\l1_pants_04_rich_03_w.mesh
 base\characters\cyberware\player\a0_005__strongarms\entities\meshes\textures\a0_003_ma__strongarms_holstered_d01.xbm
 base\characters\cyberware\player\a0_005__strongarms\entities\meshes\textures\a0_003_ma__strongarms_holstered_n01.xbm
 base\characters\garment\citizen_casual\torso\t1_079_tshirt__casual\textures\ml_t1_079_v.mlsetup

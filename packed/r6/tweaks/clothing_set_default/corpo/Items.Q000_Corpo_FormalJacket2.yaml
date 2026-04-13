@@ -3,7 +3,7 @@ Items.Q000_Corpo_FormalJacket2:
   animFeatureName: ItemData
   animName: ui_garment_pose
   animSetResource: ''
-  appearanceName: t2_formal_05_basic_02_
+  appearanceName: t2_formal_04_rich_01_
   blueprint: Items.OuterChestClothingBlueprint
   canDrop: True
   crosshair: Crosshairs.None
@@ -14,8 +14,6 @@ Items.Q000_Corpo_FormalJacket2:
   equipArea: EquipmentArea.ChestArmor
   friendlyName: ''
   garmentOffset: 0
-  icon: UIIcon.ItemIcon
-  iconPath: ''
   isCached: False
   isCoreCW: False
   isCustomizable: False
@@ -106,3 +104,6 @@ Items.Q000_Corpo_FormalJacket2:
     - Items.Q000_Corpo_FormalJacket_inline0
   statPools: []
   weakspots: []
+  icon:
+    atlasResourcePath: base\gameplay\gui\common\icons\items\item_icons16.inkatlas
+    atlasPartName: clothing_player_outer_torso_item_t2_formal_04_rich_01__Male_TPP_
