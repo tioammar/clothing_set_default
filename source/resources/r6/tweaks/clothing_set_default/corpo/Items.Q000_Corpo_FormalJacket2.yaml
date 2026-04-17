@@ -3,7 +3,7 @@ Items.Q000_Corpo_FormalJacket2:
   animFeatureName: ItemData
   animName: ui_garment_pose
   animSetResource: ''
-  appearanceName: t2_formal_04_rich_01_
+  appearanceName: t2_formal_05_rich_01_
   blueprint: Items.OuterChestClothingBlueprint
   canDrop: True
   crosshair: Crosshairs.None
