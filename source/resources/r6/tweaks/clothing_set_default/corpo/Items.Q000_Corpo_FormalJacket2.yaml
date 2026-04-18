@@ -105,5 +105,5 @@ Items.Q000_Corpo_FormalJacket2:
   statPools: []
   weakspots: []
   icon:
-    atlasResourcePath: base\gameplay\gui\common\icons\items\item_icons16.inkatlas
-    atlasPartName: clothing_player_outer_torso_item_t2_formal_04_rich_01__Male_TPP_
+    atlasResourcePath: base\gameplay\gui\common\icons\items\item_icons14.inkatlas
+    atlasPartName: clothing_player_outer_torso_item_t2_formal_05_basic_02__Male_TPP_
