@@ -3,7 +3,7 @@ Items.Q000_Nomad_Pants:
   animFeatureName: ItemData
   animName: ui_garment_pose
   animSetResource: ''
-  appearanceName: l1_pants_04_basic_01_
+  appearanceName: l1_pants_03_old_02_
   blueprint: Items.LegClothingBlueprint
   canDrop: True
   crosshair: Crosshairs.None
@@ -14,6 +14,8 @@ Items.Q000_Nomad_Pants:
   equipArea: EquipmentArea.LegArmor
   friendlyName: ''
   garmentOffset: 0
+  icon: UIIcon.ItemIcon
+  iconPath: ''
   isCached: False
   isCoreCW: False
   isCustomizable: False
@@ -100,6 +102,3 @@ Items.Q000_Nomad_Pants:
     - Items.Pants_inline0
   statPools: []
   weakspots: []
-  icon:
-    atlasResourcePath: base\gameplay\gui\common\icons\items\item_icons22.inkatlas
-    atlasPartName: clothing_player_legs_item_l1_pants_04_old_02__Male_
