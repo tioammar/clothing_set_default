@@ -84,5 +84,62 @@ end)
 
 -- Main GUI logic
 registerForEvent("onDraw", function()
-    -- do nothing 
+	if(CetOpen) then
+		ImGui.SetNextWindowSize(600, 600)
+		if not ImGui.Begin("Alternate V Clothing") then
+            ImGui.End()
+            return
+		end
+		if ImGui.BeginChild("Child Window 16", 0, 0, true) then       
+            if ImGui.BeginTabBar("##TabBar4") then
+                if ImGui.BeginTabItem("Main Clothing") then
+                    ImGui.AlignTextToFramePadding()
+                    ImGui.Text("V's Racer Jacket'")
+                    if ImGui.Button("Add Racer Jacket!", -1, 0) then
+                        Game.AddToInventory("Items.Q001_Jacket", 1)
+                    end                    
+                    
+                    ImGui.AlignTextToFramePadding()
+                    ImGui.Text("V's Boots'")
+                    if ImGui.Button("Add Boots!", -1, 0) then
+                        Game.AddToInventory("Items.Q001_Shoes", 1)
+                    end                    
+                    
+                    ImGui.AlignTextToFramePadding()
+                    ImGui.Text("V's T-Shirt'")
+                    if ImGui.Button("Add T-Shirt!", -1, 0) then
+                        Game.AddToInventory("Items.Q001_TShirt", 1)
+                    end
+                ImGui.EndTabItem()
+                end
+            ImGui.EndTabBar()
+            end
+
+            if ImGui.BeginTabBar("##TabBar4") then
+                if ImGui.BeginTabItem("Additional Clothing") then
+                    ImGui.AlignTextToFramePadding()
+                    ImGui.Text("V's Tactical Jacket'")
+                    if ImGui.Button("Add Tactical Jacket!", -1, 0) then
+                        Game.AddToInventory("Items.Q001_Tactical_Jacket", 1)
+                    end             
+                    
+                    ImGui.AlignTextToFramePadding()
+                    ImGui.Text("V's Leather Boots'")
+                    if ImGui.Button("Add Boots!", -1, 0) then
+                        Game.AddToInventory("Items.Q001_Boots", 1)
+                    end                    
+                    
+                    ImGui.AlignTextToFramePadding()
+                    ImGui.Text("V's Glasses'")
+                    if ImGui.Button("Add Glasses!", -1, 0) then
+                        Game.AddToInventory("Items.Q001_Glasses", 1)
+                    end
+                ImGui.EndTabItem()
+                end
+            ImGui.EndTabBar()
+            end
+		ImGui.EndChild()
+		end
+		ImGui.End()
+	end
 end)

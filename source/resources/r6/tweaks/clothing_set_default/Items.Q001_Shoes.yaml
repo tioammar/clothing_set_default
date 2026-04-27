@@ -1,19 +1,39 @@
 Items.Q001_Shoes:
-  $type: gamedataClothing_Record
+  animationParameters: []
   animFeatureName: ItemData
   animName: ui_garment_pose
   animSetResource: ''
-  appearanceName: s1_boots_05_basic_01_
+  appearanceName: set_01_cop_01_s1_
+  appearanceSuffixes:
+    - itemsFactoryAppearanceSuffix.Gender
+  appearanceSuffixesOwnerOverride:
+    - True
+  attachmentSlots: []
   blueprint: Items.FootClothingBlueprint
+  buyPrice:
+    - Price.Clothing
+    - Price.BuyPrice_StreetCred_Discount
+    - Price.FeetClothing
+    - Price.Boots
+  cameraForward: {x: 0, y: 0, z: 0}
+  cameraUp: {x: 0, y: 0, z: 0}
   canDrop: True
+  connections: []
   crosshair: Crosshairs.None
   deprecated: False
+  displayName: LocKey("v_racerb_name")
   dropObject: defaultItemDrop
+  effectors: []
   enableNpcRPGData: False
   entityName: player_feet_item
   equipArea: EquipmentArea.Feet
+  equipAreas: []
+  equipPrereqs: []
   friendlyName: ''
+  gameplayRestrictions:
+    - GameplayRestriction.VehicleCombatNoInterruptions
   garmentOffset: 0
+  hairSkinnedMeshComponents: []
   isCached: False
   isCoreCW: False
   isCustomizable: False
@@ -23,50 +43,29 @@ Items.Q001_Shoes:
   itemCategory: ItemCategory.Clothing
   itemSecondaryAction: ItemAction.Equip
   itemType: ItemType.Clo_Feet
+  localizedDescription: LocKey("v_racerb_desc")
   localizedName: ''
   mass: 1
   minigameInstance: minigame_v2.DefaultItemMinigame
   movementSound: Items.FootClothingBase_inline0
-  parentAttachmentType: ParentAttachmentType.Skinned
-  powerLevelDeterminedByParent: False
-  quality: Quality.Random
-  qualityRestrictedByParent: False
-  replicateWhenNotActive: False
-  upgradeCostMult: 1
-  useHeadgearGarmentAggregator: False
-  useNewSpawnMethod: False
-  usesVariants: False
-  savable: False
-  animationParameters: []
-  appearanceSuffixes:
-    - itemsFactoryAppearanceSuffix.Gender
-  appearanceSuffixesOwnerOverride:
-    - True
-  attachmentSlots: []
-  buyPrice:
-    - Price.Clothing
-    - Price.BuyPrice_StreetCred_Discount
-    - Price.FeetClothing
-    - Price.Boots
-  cameraForward: {x: 0, y: 0, z: 0}
-  cameraUp: {x: 0, y: 0, z: 0}
-  connections: []
-  displayName: LocKey("v_boots_name")
-  equipAreas: []
-  equipPrereqs: []
-  gameplayRestrictions:
-    - GameplayRestriction.VehicleCombatNoInterruptions
-  hairSkinnedMeshComponents: []
-  localizedDescription: LocKey("v_boots_desc")
+  objectActions:
+    - ItemAction.Drop
+    - ItemAction.Disassemble
   OnAttach:
     - Items_glp.PlayerPhotoModeCorrectivePose
   OnEquip: []
   OnLooted: []
+  parentAttachmentType: ParentAttachmentType.Skinned
   parts: []
   placementSlots:
     - AttachmentSlots.Feet
+  powerLevelDeterminedByParent: False
   previewBBoxOverride: []
+  quality: Quality.Random
+  qualityRestrictedByParent: False
+  replicateWhenNotActive: False
   requiredSlots: []
+  savable: False
   sellPrice:
     - Price.Clothing
     - Price.ClothingSellMultiplier
@@ -76,18 +75,6 @@ Items.Q001_Shoes:
     - Items.GenericRootSlotItem
     - Items.GenericFootClothing_inline0
   slotPartListPreset: []
-  tags:
-    - Clothing
-    - FeetClothing
-    - Poor
-    - Casual
-    - Aldecaldos
-  variants: []
-  visualTags: []
-  effectors: []
-  objectActions:
-    - ItemAction.Drop
-    - ItemAction.Disassemble
   statModifierGroups:
     - Items.QualityRandomization
   statModifiers:
@@ -103,7 +90,20 @@ Items.Q001_Shoes:
     - Items.FootClothingBase_inline8
     - Items.Boots_inline0
   statPools: []
+  tags:
+    - Clothing
+    - FeetClothing
+    - Simple
+    - Tomboy
+    - Scavengers
+  $type: gamedataClothing_Record
+  upgradeCostMult: 1
+  useHeadgearGarmentAggregator: False
+  useNewSpawnMethod: False
+  usesVariants: False
+  variants: []
+  visualTags: []
   weakspots: []
   icon:
     atlasResourcePath: base\gameplay\gui\common\icons\items\item_icons12.inkatlas
-    atlasPartName: clothing_player_feet_item_s1_boots_05_old_02__Male_
+    atlasPartName: clothing_player_feet_item_set_01_cop_01_s1__Male_

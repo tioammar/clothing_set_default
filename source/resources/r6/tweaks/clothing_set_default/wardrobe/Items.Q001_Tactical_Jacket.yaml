@@ -1,32 +1,34 @@
-Items.Q001_Racer_Boots:
+Items.Q001_Tactical_Jacket:
   animationParameters: []
   animFeatureName: ItemData
   animName: ui_garment_pose
   animSetResource: ''
-  appearanceName: set_01_cop_01_s1_
+  appearanceName: t2_vest_01_sq030_max_tac_
   appearanceSuffixes:
     - itemsFactoryAppearanceSuffix.Gender
+    - itemsFactoryAppearanceSuffix.Camera
   appearanceSuffixesOwnerOverride:
     - True
+    - False
   attachmentSlots: []
-  blueprint: Items.FootClothingBlueprint
+  blueprint: Items.OuterChestClothingBlueprint_Intrinsic
   buyPrice:
     - Price.Clothing
     - Price.BuyPrice_StreetCred_Discount
-    - Price.FeetClothing
-    - Price.Boots
+    - Price.OuterChestClothing
+    - Price.Vest
   cameraForward: {x: 0, y: 0, z: 0}
   cameraUp: {x: 0, y: 0, z: 0}
   canDrop: True
   connections: []
   crosshair: Crosshairs.None
   deprecated: False
-  displayName: LocKey("v_racerb_name")
+  displayName: LocKey("v_tactical_jacket")
   dropObject: defaultItemDrop
   effectors: []
   enableNpcRPGData: False
-  entityName: player_feet_item
-  equipArea: EquipmentArea.Feet
+  entityName: player_outer_torso_item
+  equipArea: EquipmentArea.ChestArmor
   equipAreas: []
   equipPrereqs: []
   friendlyName: ''
@@ -34,6 +36,8 @@ Items.Q001_Racer_Boots:
     - GameplayRestriction.VehicleCombatNoInterruptions
   garmentOffset: 0
   hairSkinnedMeshComponents: []
+  icon: UIIcon.ItemIcon
+  iconPath: ''
   isCached: False
   isCoreCW: False
   isCustomizable: False
@@ -42,23 +46,21 @@ Items.Q001_Racer_Boots:
   isSingleInstance: False
   itemCategory: ItemCategory.Clothing
   itemSecondaryAction: ItemAction.Equip
-  itemType: ItemType.Clo_Feet
-  localizedDescription: LocKey("v_racerb_desc")
+  itemType: ItemType.Clo_OuterChest
+  localizedDescription: LocKey("v_tactical_jacket_desc")
   localizedName: ''
   mass: 1
   minigameInstance: minigame_v2.DefaultItemMinigame
-  movementSound: Items.FootClothingBase_inline0
   objectActions:
     - ItemAction.Drop
     - ItemAction.Disassemble
-  OnAttach:
-    - Items_glp.PlayerPhotoModeCorrectivePose
+  OnAttach: []
   OnEquip: []
   OnLooted: []
   parentAttachmentType: ParentAttachmentType.Skinned
   parts: []
   placementSlots:
-    - AttachmentSlots.Feet
+    - AttachmentSlots.Torso
   powerLevelDeterminedByParent: False
   previewBBoxOverride: []
   quality: Quality.Random
@@ -66,36 +68,35 @@ Items.Q001_Racer_Boots:
   replicateWhenNotActive: False
   requiredSlots: []
   savable: False
+  scaleToPlayer: True
   sellPrice:
     - Price.Clothing
     - Price.ClothingSellMultiplier
-    - Price.FeetClothing
-    - Price.Boots
+    - Price.OuterChestClothing
+    - Price.Vest
   slotPartList:
     - Items.GenericRootSlotItem
-    - Items.GenericFootClothing_inline0
+    - Items.Vest_Intrinsic_Armor_inline0
   slotPartListPreset: []
   statModifierGroups:
     - Items.QualityRandomization
   statModifiers:
     - Items.ItemArmorToArmor
     - RTDB.Clothing_inline0
-    - Items.FootClothingBase_inline1
-    - Items.FootClothingBase_inline2
-    - Items.FootClothingBase_inline3
-    - Items.FootClothingBase_inline4
-    - Items.FootClothingBase_inline5
-    - Items.FootClothingBase_inline6
-    - Items.FootClothingBase_inline7
-    - Items.FootClothingBase_inline8
-    - Items.Boots_inline0
+    - Items.OuterChestClothingBase_inline0
+    - Items.OuterChestClothingBase_inline1
+    - Items.OuterChestClothingBase_inline2
+    - Items.OuterChestClothingBase_inline3
+    - Items.OuterChestClothingBase_inline4
+    - Items.OuterChestClothingBase_inline5
+    - Items.OuterChestClothingBase_inline6
+    - Items.OuterChestClothingBase_inline7
+    - Items.Vest_inline0
   statPools: []
   tags:
     - Clothing
-    - FeetClothing
-    - Simple
-    - Tomboy
-    - Scavengers
+    - ChestArmor
+    - ArmorMod
   $type: gamedataClothing_Record
   upgradeCostMult: 1
   useHeadgearGarmentAggregator: False
@@ -104,6 +105,3 @@ Items.Q001_Racer_Boots:
   variants: []
   visualTags: []
   weakspots: []
-  icon:
-    atlasResourcePath: base\gameplay\gui\common\icons\items\item_icons12.inkatlas
-    atlasPartName: clothing_player_feet_item_set_01_cop_01_s1__Male_

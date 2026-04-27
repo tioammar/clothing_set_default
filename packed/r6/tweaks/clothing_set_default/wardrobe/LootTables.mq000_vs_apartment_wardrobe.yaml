@@ -12,7 +12,7 @@ LootTables.mq000_vs_apartment_wardrobe:
 
 LootTables.mq000_vs_apartment_wardrobe_inline0:
   $type: gamedataLootItem_Record
-  itemID: Items.Q001_Racer
+  itemID: Items.Q001_Tactical_Jacket
   dropChance: 1
   dropCountMax: 1
   dropCountMin: 1
@@ -22,7 +22,7 @@ LootTables.mq000_vs_apartment_wardrobe_inline0:
 
 LootTables.mq000_vs_apartment_wardrobe_inline1:
   $type: gamedataLootItem_Record
-  itemID: Items.Q001_Racer_Boots
+  itemID: Items.Q001_Boots
   dropChance: 1
   dropCountMax: 1
   dropCountMin: 1

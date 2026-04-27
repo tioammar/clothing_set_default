@@ -3,7 +3,7 @@ Items.Red_Play_Jacket:
   animFeatureName: ItemData
   animName: ui_garment_pose
   animSetResource: ''
-  appearanceName: t2_jacket_24_basic_04_
+  appearanceName: set_01__red_play_jacket_t2_
   blueprint: Items.OuterChestClothingBlueprint
   canDrop: True
   crosshair: Crosshairs.None
@@ -54,13 +54,13 @@ Items.Red_Play_Jacket:
   cameraForward: {x: 0, y: 0, z: 0}
   cameraUp: {x: 0, y: 0, z: 0}
   connections: []
-  displayName: LocKey#89894
+  displayName: LocKey("v_witcher_name")
   equipAreas: []
   equipPrereqs: []
   gameplayRestrictions:
     - GameplayRestriction.VehicleCombatNoInterruptions
   hairSkinnedMeshComponents: []
-  localizedDescription: LocKey#89895
+  localizedDescription: LocKey("v_witcher_desc")
   OnAttach: []
   OnEquip: []
   OnLooted: []
@@ -76,14 +76,11 @@ Items.Red_Play_Jacket:
     - Price.Jacket
   slotPartList:
     - Items.GenericRootSlotItem
-    - Items.GenericOuterChestClothing_inline0
   slotPartListPreset: []
   tags:
     - Clothing
     - ChestArmor
-    - EP1
-    - Simple
-    - Casual
+    - EmptySlots
   variants: []
   visualTags: []
   effectors: []
@@ -103,6 +100,6 @@ Items.Red_Play_Jacket:
     - Items.OuterChestClothingBase_inline5
     - Items.OuterChestClothingBase_inline6
     - Items.OuterChestClothingBase_inline7
-    - Items.Jacket_inline0
+    - Items.EmptySlotsJacket_inline0
   statPools: []
   weakspots: []
