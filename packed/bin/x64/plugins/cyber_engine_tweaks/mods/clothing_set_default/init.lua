@@ -109,6 +109,24 @@ registerForEvent("onDraw", function()
                     ImGui.Text("V's T-Shirt'")
                     if ImGui.Button("Add T-Shirt!", -1, 0) then
                         Game.AddToInventory("Items.Q001_TShirt", 1)
+                    end                    
+                    
+                    ImGui.AlignTextToFramePadding()
+                    ImGui.Text("V's Pants'")
+                    if ImGui.Button("Add Pants!", -1, 0) then
+                        Game.AddToInventory("Items.Q001_Pants", 1)
+                    end                    
+                    
+                    ImGui.AlignTextToFramePadding()
+                    ImGui.Text("V's Knee Pad'")
+                    if ImGui.Button("Add Knee Pad!", -1, 0) then
+                        Game.AddToInventory("Items.Q001_Knee_Pad", 1)
+                    end                    
+                    
+                    ImGui.AlignTextToFramePadding()
+                    ImGui.Text("V's Boot'")
+                    if ImGui.Button("Add Racer Boot!", -1, 0) then
+                        Game.AddToInventory("Items.Q001_Shoes", 1)
                     end
                 ImGui.EndTabItem()
                 end

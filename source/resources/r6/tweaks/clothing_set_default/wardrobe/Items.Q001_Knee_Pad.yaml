@@ -1,0 +1,12 @@
+Items.Q001_Knee_Pad:
+  $base: Items.GenericLegClothing
+  entityName: v_knee_pads
+  appearanceName: v_knee_pads_black_
+  displayName: v_knee_pads_black_name
+  localizedDescription: v_knee_pads_black_desc
+  quality: Quality.Common
+  placementSlots: 
+    - !append OutfitSlots.LegsOuter
+  icon:
+    atlasResourcePath: base\kneepad\icons\v_knee_pads_black.inkatlas
+    atlasPartName: icon

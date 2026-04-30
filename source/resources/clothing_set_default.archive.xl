@@ -1,6 +1,7 @@
 factories:
     - base\v_cyberdeck.csv
-    - raem\accessories\xl\rm_neck_bulletv_factory.csv 
+    - raem\accessories\xl\rm_neck_bulletv_factory.csv
+    - base\kneepad\items\v_knee_pads.csv
 
 localization:
     onscreens:
