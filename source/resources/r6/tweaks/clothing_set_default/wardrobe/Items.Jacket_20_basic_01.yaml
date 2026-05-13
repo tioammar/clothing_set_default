@@ -1,19 +1,41 @@
-Items.Red_Play_Jacket:
-  $type: gamedataClothing_Record
+Items.Jacket_20_basic_01:
+  animationParameters: []
   animFeatureName: ItemData
   animName: ui_garment_pose
   animSetResource: ''
-  appearanceName: set_01__red_play_jacket_t2_
-  blueprint: Items.OuterChestClothingBlueprint
+  appearanceName: t2_jacket_20_basic_01_
+  appearanceSuffixes:
+    - itemsFactoryAppearanceSuffix.Gender
+    - itemsFactoryAppearanceSuffix.Camera
+  appearanceSuffixesOwnerOverride:
+    - True
+    - False
+  attachmentSlots: []
+  blueprint: Items.DLC_OuterChestClothingBlueprint
+  buyPrice:
+    - Price.Clothing
+    - Price.BuyPrice_StreetCred_Discount
+    - Price.OuterChestClothing
+    - Price.Jacket
+  cameraForward: {x: 0, y: 0, z: 0}
+  cameraUp: {x: 0, y: 0, z: 0}
   canDrop: True
+  connections: []
   crosshair: Crosshairs.None
   deprecated: False
+  displayName: LocKey("v_merc_name")
   dropObject: defaultItemDrop
+  effectors: []
   enableNpcRPGData: False
   entityName: player_outer_torso_item
   equipArea: EquipmentArea.ChestArmor
+  equipAreas: []
+  equipPrereqs: []
   friendlyName: ''
+  gameplayRestrictions:
+    - GameplayRestriction.VehicleCombatNoInterruptions
   garmentOffset: 0
+  hairSkinnedMeshComponents: []
   icon: UIIcon.ItemIcon
   iconPath: ''
   isCached: False
@@ -25,50 +47,29 @@ Items.Red_Play_Jacket:
   itemCategory: ItemCategory.Clothing
   itemSecondaryAction: ItemAction.Equip
   itemType: ItemType.Clo_OuterChest
+  localizedDescription: LocKey#79025
   localizedName: ''
   mass: 1
   minigameInstance: minigame_v2.DefaultItemMinigame
-  parentAttachmentType: ParentAttachmentType.Skinned
-  powerLevelDeterminedByParent: False
-  quality: Quality.Random
-  qualityRestrictedByParent: False
-  replicateWhenNotActive: False
-  upgradeCostMult: 1
-  useHeadgearGarmentAggregator: False
-  useNewSpawnMethod: False
-  usesVariants: False
-  savable: False
-  animationParameters: []
-  appearanceSuffixes:
-    - itemsFactoryAppearanceSuffix.Gender
-    - itemsFactoryAppearanceSuffix.Camera
-  appearanceSuffixesOwnerOverride:
-    - True
-    - False
-  attachmentSlots: []
-  buyPrice:
-    - Price.Clothing
-    - Price.BuyPrice_StreetCred_Discount
-    - Price.OuterChestClothing
-    - Price.Jacket
-  cameraForward: {x: 0, y: 0, z: 0}
-  cameraUp: {x: 0, y: 0, z: 0}
-  connections: []
-  displayName: LocKey("v_witcher_name")
-  equipAreas: []
-  equipPrereqs: []
-  gameplayRestrictions:
-    - GameplayRestriction.VehicleCombatNoInterruptions
-  hairSkinnedMeshComponents: []
-  localizedDescription: LocKey("v_witcher_desc")
-  OnAttach: []
+  objectActions:
+    - ItemAction.Drop
+    - ItemAction.Disassemble
+  OnAttach:
+    - Items_glp.PlayerPhotoModeCorrectivePose
   OnEquip: []
   OnLooted: []
+  parentAttachmentType: ParentAttachmentType.Skinned
   parts: []
   placementSlots:
     - AttachmentSlots.Torso
+  powerLevelDeterminedByParent: False
   previewBBoxOverride: []
+  quality: Quality.Rare
+  qualityRestrictedByParent: False
+  replicateWhenNotActive: False
   requiredSlots: []
+  savable: False
+  scaleToPlayer: True
   sellPrice:
     - Price.Clothing
     - Price.ClothingSellMultiplier
@@ -77,16 +78,6 @@ Items.Red_Play_Jacket:
   slotPartList:
     - Items.GenericRootSlotItem
   slotPartListPreset: []
-  tags:
-    - Clothing
-    - ChestArmor
-    - EmptySlots
-  variants: []
-  visualTags: []
-  effectors: []
-  objectActions:
-    - ItemAction.Drop
-    - ItemAction.Disassemble
   statModifierGroups:
     - Items.QualityRandomization
   statModifiers:
@@ -101,5 +92,20 @@ Items.Red_Play_Jacket:
     - Items.OuterChestClothingBase_inline6
     - Items.OuterChestClothingBase_inline7
     - Items.EmptySlotsJacket_inline0
+    - Character.ScaleToPlayerLevel
   statPools: []
+  tags:
+    - Clothing
+    - ChestArmor
+    - EmptySlots
+    - Industrial
+    - Cowboy
+    - DLCStashItem
+  $type: gamedataClothing_Record
+  upgradeCostMult: 1
+  useHeadgearGarmentAggregator: False
+  useNewSpawnMethod: False
+  usesVariants: False
+  variants: []
+  visualTags: []
   weakspots: []

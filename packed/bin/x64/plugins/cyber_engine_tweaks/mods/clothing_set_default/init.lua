@@ -136,7 +136,7 @@ registerForEvent("onDraw", function()
             if ImGui.BeginTabBar("##TabBar4") then
                 if ImGui.BeginTabItem("Additional Clothing") then
                     ImGui.AlignTextToFramePadding()
-                    ImGui.Text("V's Tactical Jacket'")
+                    ImGui.Text("Tactical Jacket")
                     if ImGui.Button("Add Tactical Jacket!", -1, 0) then
                         Game.AddToInventory("Items.Q001_Tactical_Jacket", 1)
                     end             
@@ -151,6 +151,12 @@ registerForEvent("onDraw", function()
                     ImGui.Text("V's Glasses'")
                     if ImGui.Button("Add Glasses!", -1, 0) then
                         Game.AddToInventory("Items.Q001_Glasses", 1)
+                    end                    
+                    
+                    ImGui.AlignTextToFramePadding()
+                    ImGui.Text("SECOND CONFLICT Biker Jacket")
+                    if ImGui.Button("Add Biker Jacket!", -1, 0) then
+                        Game.AddToInventory("Items.Jacket_05_old_01", 1)
                     end
                 ImGui.EndTabItem()
                 end

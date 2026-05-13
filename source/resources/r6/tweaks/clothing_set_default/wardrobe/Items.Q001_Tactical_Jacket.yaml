@@ -47,7 +47,7 @@ Items.Q001_Tactical_Jacket:
   itemCategory: ItemCategory.Clothing
   itemSecondaryAction: ItemAction.Equip
   itemType: ItemType.Clo_OuterChest
-  localizedDescription: LocKey("v_tactical_jacket_desc")
+  localizedDescription: LocKey#15196
   localizedName: ''
   mass: 1
   minigameInstance: minigame_v2.DefaultItemMinigame
