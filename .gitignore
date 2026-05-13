@@ -5,3 +5,5 @@ source/raw/*
 clothing_set_default.cpmodproj
 .projectFiles/fileTreeState.json
 /packed
+custom_tweaks.txt
+custom_refs.txt
