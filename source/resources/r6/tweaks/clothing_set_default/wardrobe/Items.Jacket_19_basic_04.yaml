@@ -1,0 +1,108 @@
+Items.Jacket_19_basic_04:
+  animationParameters: []
+  animFeatureName: ItemData
+  animName: ui_garment_pose
+  animSetResource: ''
+  appearanceName: t2_jacket_02_basic_01_
+  appearanceSuffixes:
+    - itemsFactoryAppearanceSuffix.Gender
+    - itemsFactoryAppearanceSuffix.Camera
+  appearanceSuffixesOwnerOverride:
+    - True
+    - False
+  attachmentSlots: []
+  blueprint: Items.OuterChestClothingBlueprint
+  buyPrice:
+    - Price.Clothing
+    - Price.BuyPrice_StreetCred_Discount
+    - Price.OuterChestClothing
+    - Price.Jacket
+  cameraForward: {x: 0, y: 0, z: 0}
+  cameraUp: {x: 0, y: 0, z: 0}
+  canDrop: True
+  connections: []
+  crosshair: Crosshairs.None
+  deprecated: False
+  displayName: LocKey#4562
+  dropObject: defaultItemDrop
+  effectors: []
+  enableNpcRPGData: False
+  entityName: player_outer_torso_item
+  equipArea: EquipmentArea.ChestArmor
+  equipAreas: []
+  equipPrereqs: []
+  friendlyName: ''
+  gameplayRestrictions:
+    - GameplayRestriction.VehicleCombatNoInterruptions
+  garmentOffset: 0
+  hairSkinnedMeshComponents: []
+  icon: UIIcon.ItemIcon
+  iconPath: ''
+  isCached: False
+  isCoreCW: False
+  isCustomizable: False
+  isGarment: True
+  isPart: False
+  isSingleInstance: False
+  itemCategory: ItemCategory.Clothing
+  itemSecondaryAction: ItemAction.Equip
+  itemType: ItemType.Clo_OuterChest
+  localizedDescription: LocKey#4567
+  localizedName: ''
+  mass: 1
+  minigameInstance: minigame_v2.DefaultItemMinigame
+  objectActions:
+    - ItemAction.Drop
+    - ItemAction.Disassemble
+  OnAttach:
+    - Items_glp.PlayerPhotoModeCorrectivePose
+  OnEquip: []
+  OnLooted: []
+  parentAttachmentType: ParentAttachmentType.Skinned
+  parts: []
+  placementSlots:
+    - AttachmentSlots.Torso
+  powerLevelDeterminedByParent: False
+  previewBBoxOverride: []
+  quality: Quality.Random
+  qualityRestrictedByParent: False
+  replicateWhenNotActive: False
+  requiredSlots: []
+  savable: False
+  sellPrice:
+    - Price.Clothing
+    - Price.ClothingSellMultiplier
+    - Price.OuterChestClothing
+    - Price.Jacket
+  slotPartList:
+    - Items.GenericRootSlotItem
+  slotPartListPreset: []
+  statModifierGroups:
+    - Items.QualityRandomization
+  statModifiers:
+    - Items.ItemArmorToArmor
+    - RTDB.Clothing_inline0
+    - Items.OuterChestClothingBase_inline0
+    - Items.OuterChestClothingBase_inline1
+    - Items.OuterChestClothingBase_inline2
+    - Items.OuterChestClothingBase_inline3
+    - Items.OuterChestClothingBase_inline4
+    - Items.OuterChestClothingBase_inline5
+    - Items.OuterChestClothingBase_inline6
+    - Items.OuterChestClothingBase_inline7
+    - Items.EmptySlotsJacket_inline0
+  statPools: []
+  tags:
+    - Clothing
+    - ChestArmor
+    - EmptySlots
+    - Simple
+    - Military
+  $type: gamedataClothing_Record
+  upgradeCostMult: 1
+  useHeadgearGarmentAggregator: False
+  useNewSpawnMethod: False
+  usesVariants: False
+  variants: []
+  visualTags: []
+  weakspots: []
