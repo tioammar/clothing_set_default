@@ -1,43 +1,19 @@
-Items.Jacket_19_basic_04:
-  animationParameters: []
+Items.Q000_Jacket:
+  $type: gamedataClothing_Record
   animFeatureName: ItemData
   animName: ui_garment_pose
   animSetResource: ''
-  appearanceName: t2_jacket_02_basic_01_
-  appearanceSuffixes:
-    - itemsFactoryAppearanceSuffix.Gender
-    - itemsFactoryAppearanceSuffix.Camera
-  appearanceSuffixesOwnerOverride:
-    - True
-    - False
-  attachmentSlots: []
+  appearanceName: t2_jacket_10_old_01_
   blueprint: Items.OuterChestClothingBlueprint
-  buyPrice:
-    - Price.Clothing
-    - Price.BuyPrice_StreetCred_Discount
-    - Price.OuterChestClothing
-    - Price.Jacket
-  cameraForward: {x: 0, y: 0, z: 0}
-  cameraUp: {x: 0, y: 0, z: 0}
   canDrop: True
-  connections: []
   crosshair: Crosshairs.None
   deprecated: False
-  displayName: LocKey#4562
   dropObject: defaultItemDrop
-  effectors: []
   enableNpcRPGData: False
   entityName: player_outer_torso_item
   equipArea: EquipmentArea.ChestArmor
-  equipAreas: []
-  equipPrereqs: []
   friendlyName: ''
-  gameplayRestrictions:
-    - GameplayRestriction.VehicleCombatNoInterruptions
   garmentOffset: 0
-  hairSkinnedMeshComponents: []
-  icon: UIIcon.ItemIcon
-  iconPath: ''
   isCached: False
   isCoreCW: False
   isCustomizable: False
@@ -47,28 +23,51 @@ Items.Jacket_19_basic_04:
   itemCategory: ItemCategory.Clothing
   itemSecondaryAction: ItemAction.Equip
   itemType: ItemType.Clo_OuterChest
-  localizedDescription: LocKey#4567
   localizedName: ''
   mass: 1
   minigameInstance: minigame_v2.DefaultItemMinigame
-  objectActions:
-    - ItemAction.Drop
-    - ItemAction.Disassemble
+  parentAttachmentType: ParentAttachmentType.Skinned
+  powerLevelDeterminedByParent: False
+  quality: Quality.Random
+  qualityRestrictedByParent: False
+  replicateWhenNotActive: False
+  upgradeCostMult: 1
+  useHeadgearGarmentAggregator: False
+  useNewSpawnMethod: False
+  usesVariants: False
+  savable: False
+  animationParameters: []
+  appearanceSuffixes:
+    - itemsFactoryAppearanceSuffix.Gender
+    - itemsFactoryAppearanceSuffix.Camera
+  appearanceSuffixesOwnerOverride:
+    - True
+    - False
+  attachmentSlots: []
+  buyPrice:
+    - Price.Clothing
+    - Price.BuyPrice_StreetCred_Discount
+    - Price.OuterChestClothing
+    - Price.Jacket
+  cameraForward: {x: 0, y: 0, z: 0}
+  cameraUp: {x: 0, y: 0, z: 0}
+  connections: []
+  displayName: LocKey("v_racer_name")
+  equipAreas: []
+  equipPrereqs: []
+  gameplayRestrictions:
+    - GameplayRestriction.VehicleCombatNoInterruptions
+  hairSkinnedMeshComponents: []
+  localizedDescription: LocKey("v_racer_desc")
   OnAttach:
     - Items_glp.PlayerPhotoModeCorrectivePose
   OnEquip: []
   OnLooted: []
-  parentAttachmentType: ParentAttachmentType.Skinned
   parts: []
   placementSlots:
     - AttachmentSlots.Torso
-  powerLevelDeterminedByParent: False
   previewBBoxOverride: []
-  quality: Quality.Random
-  qualityRestrictedByParent: False
-  replicateWhenNotActive: False
   requiredSlots: []
-  savable: False
   sellPrice:
     - Price.Clothing
     - Price.ClothingSellMultiplier
@@ -76,7 +75,19 @@ Items.Jacket_19_basic_04:
     - Price.Jacket
   slotPartList:
     - Items.GenericRootSlotItem
+    - Items.GenericOuterChestClothing_inline0
   slotPartListPreset: []
+  tags:
+    - Clothing
+    - ChestArmor
+    - Streetwear
+    - Aldecaldos
+  variants: []
+  visualTags: []
+  effectors: []
+  objectActions:
+    - ItemAction.Drop
+    - ItemAction.Disassemble
   statModifierGroups:
     - Items.QualityRandomization
   statModifiers:
@@ -90,19 +101,9 @@ Items.Jacket_19_basic_04:
     - Items.OuterChestClothingBase_inline5
     - Items.OuterChestClothingBase_inline6
     - Items.OuterChestClothingBase_inline7
-    - Items.EmptySlotsJacket_inline0
+    - Items.Jacket_inline0
   statPools: []
-  tags:
-    - Clothing
-    - ChestArmor
-    - EmptySlots
-    - Simple
-    - Military
-  $type: gamedataClothing_Record
-  upgradeCostMult: 1
-  useHeadgearGarmentAggregator: False
-  useNewSpawnMethod: False
-  usesVariants: False
-  variants: []
-  visualTags: []
   weakspots: []
+  icon:
+    atlasResourcePath: base\gameplay\gui\common\icons\items\item_icons11.inkatlas
+    atlasPartName: clothing_player_outer_torso_item_t2_jacket_10_q114_aldecaldo__Male_TPP_
