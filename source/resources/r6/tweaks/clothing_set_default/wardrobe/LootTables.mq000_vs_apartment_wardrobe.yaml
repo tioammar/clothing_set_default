@@ -22,7 +22,7 @@ LootTables.mq000_vs_apartment_wardrobe_inline0:
 
 LootTables.mq000_vs_apartment_wardrobe_inline1:
   $type: gamedataLootItem_Record
-  itemID: Items.Q001_Boots
+  itemID: Items.Jacket_24_basic_01
   dropChance: 1
   dropCountMax: 1
   dropCountMin: 1

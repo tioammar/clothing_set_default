@@ -49,7 +49,7 @@ registerForEvent("onInit", function()
         if tostring(factName.value) == "ranged_combat_tutorial" and not is_init then
             print("clothing_set_default: checkpoint_" .. tostring(factName.value))
             RPGManager.ForceEquipItemOnPlayer(GetPlayer(),"Items.Q001_Jacket", true)
-            RPGManager.ForceEquipItemOnPlayer(GetPlayer(),"Items.Q001_Glasses", true)
+            Game.AddToInventory("Items.Q001_Glasses", 1)
             is_init = true
             statusPrint()
         end
@@ -145,12 +145,6 @@ registerForEvent("onDraw", function()
                     ImGui.Text("Knee Pad")
                     if ImGui.Button("Add Knee Pad!", -1, 0) then
                         Game.AddToInventory("Items.Q001_Knee_Pad", 1)
-                    end                   
-                    
-                    ImGui.AlignTextToFramePadding()
-                    ImGui.Text("Second Conflict Biker Jacket")
-                    if ImGui.Button("Add Biker Jacket!", -1, 0) then
-                        Game.AddToInventory("Items.Jacket_05_old_01", 1)
                     end
                 ImGui.EndTabItem()
                 end
