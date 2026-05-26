@@ -48,8 +48,7 @@ registerForEvent("onInit", function()
     function(this, factName, value)
         if tostring(factName.value) == "ranged_combat_tutorial" and not is_init then
             print("clothing_set_default: checkpoint_" .. tostring(factName.value))
-            RPGManager.ForceEquipItemOnPlayer(GetPlayer(),"Items.Q001_Jacket", true)
-            Game.AddToInventory("Items.Q001_Glasses", 1)
+            RPGManager.ForceEquipItemOnPlayer(GetPlayer(),"Items.Q001_Glasses", true)
             is_init = true
             statusPrint()
         end
@@ -90,30 +89,36 @@ registerForEvent("onDraw", function()
             ImGui.End()
             return
 		end
-		if ImGui.BeginChild("Child Window 16", 0, 0, true) then       
+		if ImGui.BeginChild("Child Window 16", 0, 0, true) then
             if ImGui.BeginTabBar("##TabBar4") then
                 if ImGui.BeginTabItem("Main Clothing") then
                     ImGui.AlignTextToFramePadding()
-                    ImGui.Text("V's Racer Jacket'")
-                    if ImGui.Button("Add Racer Jacket!", -1, 0) then
-                        Game.AddToInventory("Items.Q001_Jacket", 1)
-                    end  
-                    
+                    ImGui.Text("V's Merc Jacket")
+                    if ImGui.Button("Add Merc Jacket!", -1, 0) then
+                        Game.AddToInventory("Items.Red_Play_Vest", 1)
+                    end
+
                     ImGui.AlignTextToFramePadding()
-                    ImGui.Text("V's T-Shirt'")
+                    ImGui.Text("V's T-Shirt")
                     if ImGui.Button("Add T-Shirt!", -1, 0) then
-                        Game.AddToInventory("Items.Q001_TShirt", 1)
-                    end                    
-                    
+                        Game.AddToInventory("Items.Red_Play_TShirt", 1)
+                    end
+
                     ImGui.AlignTextToFramePadding()
-                    ImGui.Text("V's Pants'")
+                    ImGui.Text("V's Solo Shirt")
+                    if ImGui.Button("Add Solo Shirt!", -1, 0) then
+                        Game.AddToInventory("Items.Q001_TShirt", 1)
+                    end           
+
+                    ImGui.AlignTextToFramePadding()
+                    ImGui.Text("V's Pants")
                     if ImGui.Button("Add Pants!", -1, 0) then
                         Game.AddToInventory("Items.Q001_Pants", 1)
-                    end     
-                    
+                    end
+
                     ImGui.AlignTextToFramePadding()
-                    ImGui.Text("V's Boots'")
-                    if ImGui.Button("Add Racer Boot!", -1, 0) then
+                    ImGui.Text("V's Boots")
+                    if ImGui.Button("Add Boots!", -1, 0) then
                         Game.AddToInventory("Items.Q001_Shoes", 1)
                     end
                 ImGui.EndTabItem()
@@ -127,20 +132,32 @@ registerForEvent("onDraw", function()
                     ImGui.Text("Tactical Jacket")
                     if ImGui.Button("Add Tactical Jacket!", -1, 0) then
                         Game.AddToInventory("Items.Q001_Tactical_Jacket", 1)
-                    end             
-                    
+                    end
+
+                    ImGui.AlignTextToFramePadding()
+                    ImGui.Text("Racer Jacket")
+                    if ImGui.Button("Add Racer Jacket!", -1, 0) then
+                        Game.AddToInventory("Items.Q000_Jacket", 1)
+                    end
+
                     ImGui.AlignTextToFramePadding()
                     ImGui.Text("Syn-leather Boots")
-                    if ImGui.Button("Add Boots!", -1, 0) then
+                    if ImGui.Button("Add Leather Boots!", -1, 0) then
                         Game.AddToInventory("Items.Q001_Boots", 1)
-                    end             
-                    
+                    end
+
                     ImGui.AlignTextToFramePadding()
                     ImGui.Text("Taped Square Glasses")
                     if ImGui.Button("Add Glasses!", -1, 0) then
                         Game.AddToInventory("Items.Q001_Glasses", 1)
-                    end                                       
-                    
+                    end
+
+                    ImGui.AlignTextToFramePadding()
+                    ImGui.Text("Second Conflict Biker Jacket")
+                    if ImGui.Button("Add Biker Jacket!", -1, 0) then
+                        Game.AddToInventory("Items.Jacket_05_old_01", 1)
+                    end
+
                     ImGui.AlignTextToFramePadding()
                     ImGui.Text("Knee Pad")
                     if ImGui.Button("Add Knee Pad!", -1, 0) then

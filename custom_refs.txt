@@ -78,6 +78,8 @@ base\quest\main_quests\part1\q105\scenes\lipsync\en\q105_04c_braindance_dealer\c
 base\quest\main_quests\part1\q105\scenes\lipsync\en\q105_04c_braindance_dealer\civ_low_m_23_enus_40.anims
 base\quest\main_quests\part1\q105\scenes\lipsync\en\q105_04c_braindance_dealer\civ_low_m_45_afam_30.anims
 base\quest\main_quests\part1\q105\scenes\lipsync\en\q105_04c_braindance_dealer\v.anims
+base\surfaces\materials\graphics_logos\graphics_logos_003_d02.xbm
+base\surfaces\materials\graphics_logos\graphics_logos_custom.xbm
 base\v_boots.csv
 base\v_cyberdeck.csv
 base\vehicles\sport\v_sport1_quadra_turbo\entities\meshes\textures\ml_v_sport1_quadra_turbo_01_hella_exterior.mlsetup

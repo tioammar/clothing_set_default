@@ -1,0 +1,105 @@
+Items.Q001_TShirt:
+  animationParameters: []
+  animFeatureName: ItemData
+  animName: ui_garment_pose
+  animSetResource: ''
+  appearanceName: set_01_media_01_t1_
+  appearanceSuffixes:
+    - itemsFactoryAppearanceSuffix.Gender
+    - itemsFactoryAppearanceSuffix.Camera
+    - itemsFactoryAppearanceSuffix.Partial
+  appearanceSuffixesOwnerOverride:
+    - True
+  attachmentSlots: []
+  blueprint: Items.InnerChestClothingBlueprint
+  buyPrice:
+    - Price.Clothing
+    - Price.BuyPrice_StreetCred_Discount
+    - Price.InnerChestClothing
+    - Price.Shirt
+  cameraForward: {x: 0, y: 0, z: 0}
+  cameraUp: {x: 0, y: 0, z: 0}
+  canDrop: True
+  connections: []
+  crosshair: Crosshairs.None
+  deprecated: False
+  displayName: LocKey("v_shirt_name")
+  dropObject: defaultItemDrop
+  effectors: []
+  enableNpcRPGData: False
+  entityName: player_inner_torso_item
+  equipArea: EquipmentArea.InnerChest
+  equipAreas: []
+  equipPrereqs: []
+  friendlyName: ''
+  gameplayRestrictions:
+    - GameplayRestriction.VehicleCombatNoInterruptions
+  garmentOffset: 0
+  hairSkinnedMeshComponents: []
+  icon: UIIcon.ItemIcon
+  iconPath: ''
+  isCached: False
+  isCoreCW: False
+  isCustomizable: False
+  isGarment: True
+  isPart: False
+  isSingleInstance: False
+  itemCategory: ItemCategory.Clothing
+  itemSecondaryAction: ItemAction.Equip
+  itemType: ItemType.Clo_InnerChest
+  localizedDescription: LocKey("v_shirt_desc")
+  localizedName: ''
+  mass: 1
+  minigameInstance: minigame_v2.DefaultItemMinigame
+  objectActions:
+    - ItemAction.Drop
+    - ItemAction.Disassemble
+  OnAttach: []
+  OnEquip: []
+  OnLooted: []
+  parentAttachmentType: ParentAttachmentType.Skinned
+  parts: []
+  placementSlots:
+    - AttachmentSlots.Chest
+  powerLevelDeterminedByParent: False
+  previewBBoxOverride: []
+  quality: Quality.Legendary
+  qualityRestrictedByParent: False
+  replicateWhenNotActive: False
+  requiredSlots: []
+  savable: False
+  sellPrice:
+    - Price.Clothing
+    - Price.ClothingSellMultiplier
+    - Price.InnerChestClothing
+    - Price.Shirt
+  slotPartList:
+    - Items.GenericRootSlotItem
+    - Items.GenericInnerChestClothing_inline0
+  slotPartListPreset: []
+  statModifierGroups:
+    - Items.QualityRandomization
+  statModifiers:
+    - Items.ItemArmorToArmor
+    - RTDB.Clothing_inline0
+    - Items.InnerChestClothingBase_inline0
+    - Items.InnerChestClothingBase_inline1
+    - Items.InnerChestClothingBase_inline2
+    - Items.InnerChestClothingBase_inline3
+    - Items.InnerChestClothingBase_inline4
+    - Items.InnerChestClothingBase_inline5
+    - Items.InnerChestClothingBase_inline6
+    - Items.InnerChestClothingBase_inline7
+    - Items.Shirt_inline0
+  statPools: []
+  tags:
+    - Clothing
+    - InnerChestArmor
+  $type: gamedataClothing_Record
+  upgradeCostMult: 1
+  useHeadgearGarmentAggregator: False
+  useNewSpawnMethod: False
+  usesVariants: False
+  variants: []
+  visualTags: []
+  weakspots: []
