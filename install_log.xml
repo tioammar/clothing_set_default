@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<InstalLog Project="clothing_set_default" Build_date="5/30/2026 3:22:40 PM">
+  <Files>
+    <Directory Path="D:\SteamLibrary\steamapps\common\Cyberpunk 2077\archive">
+      <Directory Path="D:\SteamLibrary\steamapps\common\Cyberpunk 2077\archive\pc">
+        <Directory Path="D:\SteamLibrary\steamapps\common\Cyberpunk 2077\archive\pc\mod">
+          <file>D:\SteamLibrary\steamapps\common\Cyberpunk 2077\archive\pc\mod\clothing_set_default.archive</file>
+          <file>D:\SteamLibrary\steamapps\common\Cyberpunk 2077\archive\pc\mod\clothing_set_default.archive.xl</file>
+        </Directory>
+      </Directory>
+    </Directory>
+    <Directory Path="D:\SteamLibrary\steamapps\common\Cyberpunk 2077\bin">
+      <Directory Path="D:\SteamLibrary\steamapps\common\Cyberpunk 2077\bin\x64">
+        <Directory Path="D:\SteamLibrary\steamapps\common\Cyberpunk 2077\bin\x64\plugins">
+          <Directory Path="D:\SteamLibrary\steamapps\common\Cyberpunk 2077\bin\x64\plugins\cyber_engine_tweaks">
+            <Directory Path="D:\SteamLibrary\steamapps\common\Cyberpunk 2077\bin\x64\plugins\cyber_engine_tweaks\mods">
+              <Directory Path="D:\SteamLibrary\steamapps\common\Cyberpunk 2077\bin\x64\plugins\cyber_engine_tweaks\mods\clothing_set_default">
+                <file>D:\SteamLibrary\steamapps\common\Cyberpunk 2077\bin\x64\plugins\cyber_engine_tweaks\mods\clothing_set_default\GameSession.lua</file>
+                <file>D:\SteamLibrary\steamapps\common\Cyberpunk 2077\bin\x64\plugins\cyber_engine_tweaks\mods\clothing_set_default\init.lua</file>
+              </Directory>
+            </Directory>
+          </Directory>
+        </Directory>
+      </Directory>
+    </Directory>
+    <Directory Path="D:\SteamLibrary\steamapps\common\Cyberpunk 2077\r6">
+      <Directory Path="D:\SteamLibrary\steamapps\common\Cyberpunk 2077\r6\tweaks">
+        <Directory Path="D:\SteamLibrary\steamapps\common\Cyberpunk 2077\r6\tweaks\clothing_set_default">
+          <file>D:\SteamLibrary\steamapps\common\Cyberpunk 2077\r6\tweaks\clothing_set_default\Items.Q001_Glasses.yaml</file>
+          <file>D:\SteamLibrary\steamapps\common\Cyberpunk 2077\r6\tweaks\clothing_set_default\Items.Q001_Pants.yaml</file>
+          <file>D:\SteamLibrary\steamapps\common\Cyberpunk 2077\r6\tweaks\clothing_set_default\Items.Q001_Shirt.yaml</file>
+          <file>D:\SteamLibrary\steamapps\common\Cyberpunk 2077\r6\tweaks\clothing_set_default\Items.Q001_Shoes.yaml</file>
+          <file>D:\SteamLibrary\steamapps\common\Cyberpunk 2077\r6\tweaks\clothing_set_default\Items.Q001_Short.yaml</file>
+          <Directory Path="D:\SteamLibrary\steamapps\common\Cyberpunk 2077\r6\tweaks\clothing_set_default\backup">
+            <file>D:\SteamLibrary\steamapps\common\Cyberpunk 2077\r6\tweaks\clothing_set_default\backup\Items.Q000_Corpo_FormalJacket.yaml</file>
+            <file>D:\SteamLibrary\steamapps\common\Cyberpunk 2077\r6\tweaks\clothing_set_default\backup\Items.Q000_Corpo_FormalJacket2.yaml</file>
+            <file>D:\SteamLibrary\steamapps\common\Cyberpunk 2077\r6\tweaks\clothing_set_default\backup\Items.Q000_Jacket.yaml</file>
+            <file>D:\SteamLibrary\steamapps\common\Cyberpunk 2077\r6\tweaks\clothing_set_default\backup\Items.Q001_Knee_Pad.yaml</file>
+          </Directory>
+          <Directory Path="D:\SteamLibrary\steamapps\common\Cyberpunk 2077\r6\tweaks\clothing_set_default\corpo">
+            <file>D:\SteamLibrary\steamapps\common\Cyberpunk 2077\r6\tweaks\clothing_set_default\corpo\Items.Q000_Corpo_FormalJacket.yaml</file>
+            <file>D:\SteamLibrary\steamapps\common\Cyberpunk 2077\r6\tweaks\clothing_set_default\corpo\Items.Q000_Corpo_FormalJacket2.yaml</file>
+          </Directory>
+          <Directory Path="D:\SteamLibrary\steamapps\common\Cyberpunk 2077\r6\tweaks\clothing_set_default\loot">
+            <file>D:\SteamLibrary\steamapps\common\Cyberpunk 2077\r6\tweaks\clothing_set_default\loot\Items.Jacket_20_basic_01.yaml</file>
+            <file>D:\SteamLibrary\steamapps\common\Cyberpunk 2077\r6\tweaks\clothing_set_default\loot\Items.Q001_Boots.yaml</file>
+            <file>D:\SteamLibrary\steamapps\common\Cyberpunk 2077\r6\tweaks\clothing_set_default\loot\Items.Q001_Tactical_Jacket.yaml</file>
+            <file>D:\SteamLibrary\steamapps\common\Cyberpunk 2077\r6\tweaks\clothing_set_default\loot\LootTables.mq000_vs_apartment_wardrobe.yaml</file>
+          </Directory>
+          <Directory Path="D:\SteamLibrary\steamapps\common\Cyberpunk 2077\r6\tweaks\clothing_set_default\nomad">
+            <file>D:\SteamLibrary\steamapps\common\Cyberpunk 2077\r6\tweaks\clothing_set_default\nomad\Items.Q000_Nomad_Boots.yaml</file>
+            <file>D:\SteamLibrary\steamapps\common\Cyberpunk 2077\r6\tweaks\clothing_set_default\nomad\Items.Q000_Nomad_Pants.yaml</file>
+          </Directory>
+          <Directory Path="D:\SteamLibrary\steamapps\common\Cyberpunk 2077\r6\tweaks\clothing_set_default\raem">
+            <file>D:\SteamLibrary\steamapps\common\Cyberpunk 2077\r6\tweaks\clothing_set_default\raem\rm_acc_neck_bulletv.yaml</file>
+          </Directory>
+          <Directory Path="D:\SteamLibrary\steamapps\common\Cyberpunk 2077\r6\tweaks\clothing_set_default\silverhand">
+            <file>D:\SteamLibrary\steamapps\common\Cyberpunk 2077\r6\tweaks\clothing_set_default\silverhand\Items.Q005_Johnny_Glasses.yaml</file>
+            <file>D:\SteamLibrary\steamapps\common\Cyberpunk 2077\r6\tweaks\clothing_set_default\silverhand\Items.Q005_Johnny_Pants.yaml</file>
+            <file>D:\SteamLibrary\steamapps\common\Cyberpunk 2077\r6\tweaks\clothing_set_default\silverhand\Items.Q005_Johnny_Shirt.yaml</file>
+            <file>D:\SteamLibrary\steamapps\common\Cyberpunk 2077\r6\tweaks\clothing_set_default\silverhand\Items.Q005_Johnny_Shoes.yaml</file>
+            <file>D:\SteamLibrary\steamapps\common\Cyberpunk 2077\r6\tweaks\clothing_set_default\silverhand\Items.SQ031_Samurai_Jacket.yaml</file>
+          </Directory>
+          <Directory Path="D:\SteamLibrary\steamapps\common\Cyberpunk 2077\r6\tweaks\clothing_set_default\street_kid">
+            <file>D:\SteamLibrary\steamapps\common\Cyberpunk 2077\r6\tweaks\clothing_set_default\street_kid\Items.Q000_StreetKid_Pants.yaml</file>
+            <file>D:\SteamLibrary\steamapps\common\Cyberpunk 2077\r6\tweaks\clothing_set_default\street_kid\Items.Q000_StreetKid_Shoes.yaml</file>
+            <file>D:\SteamLibrary\steamapps\common\Cyberpunk 2077\r6\tweaks\clothing_set_default\street_kid\Items.Q000_StreetKid_TShirt.yaml</file>
+          </Directory>
+          <Directory Path="D:\SteamLibrary\steamapps\common\Cyberpunk 2077\r6\tweaks\clothing_set_default\wardrobe">
+            <file>D:\SteamLibrary\steamapps\common\Cyberpunk 2077\r6\tweaks\clothing_set_default\wardrobe\Items.Q001_Cyberdeck.yaml</file>
+            <file>D:\SteamLibrary\steamapps\common\Cyberpunk 2077\r6\tweaks\clothing_set_default\wardrobe\Items.Q001_Cyberdeck_Hand.yaml</file>
+            <file>D:\SteamLibrary\steamapps\common\Cyberpunk 2077\r6\tweaks\clothing_set_default\wardrobe\Items.Q001_Jacket.yaml</file>
+            <file>D:\SteamLibrary\steamapps\common\Cyberpunk 2077\r6\tweaks\clothing_set_default\wardrobe\Items.Q001_TShirt.yaml</file>
+          </Directory>
+        </Directory>
+      </Directory>
+    </Directory>
+  </Files>
+</InstalLog>

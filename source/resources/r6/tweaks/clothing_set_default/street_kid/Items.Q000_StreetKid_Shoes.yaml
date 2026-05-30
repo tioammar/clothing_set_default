@@ -3,7 +3,7 @@ Items.Q000_StreetKid_Shoes:
   animFeatureName: ItemData
   animName: ui_garment_pose
   animSetResource: ''
-  appearanceName: s1_casual_01_basic_04_
+  appearanceName: s1_casual_01_q001_start_
   blueprint: Items.FootClothingBlueprint
   canDrop: True
   crosshair: Crosshairs.None

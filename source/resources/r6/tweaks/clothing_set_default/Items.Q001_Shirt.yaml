@@ -3,11 +3,10 @@ Items.Q001_TShirt:
   animFeatureName: ItemData
   animName: ui_garment_pose
   animSetResource: ''
-  appearanceName: set_01_media_01_t1_
+  appearanceName: militech_
   appearanceSuffixes:
     - itemsFactoryAppearanceSuffix.Gender
     - itemsFactoryAppearanceSuffix.Camera
-    - itemsFactoryAppearanceSuffix.Partial
   appearanceSuffixesOwnerOverride:
     - True
   attachmentSlots: []
@@ -27,7 +26,7 @@ Items.Q001_TShirt:
   dropObject: defaultItemDrop
   effectors: []
   enableNpcRPGData: False
-  entityName: player_inner_torso_item
+  entityName: t1_shirt_militech
   equipArea: EquipmentArea.InnerChest
   equipAreas: []
   equipPrereqs: []
@@ -36,8 +35,6 @@ Items.Q001_TShirt:
     - GameplayRestriction.VehicleCombatNoInterruptions
   garmentOffset: 0
   hairSkinnedMeshComponents: []
-  icon: UIIcon.ItemIcon
-  iconPath: ''
   isCached: False
   isCoreCW: False
   isCustomizable: False
@@ -63,7 +60,7 @@ Items.Q001_TShirt:
     - AttachmentSlots.Chest
   powerLevelDeterminedByParent: False
   previewBBoxOverride: []
-  quality: Quality.Legendary
+  quality: Quality.Random
   qualityRestrictedByParent: False
   replicateWhenNotActive: False
   requiredSlots: []
@@ -102,4 +99,7 @@ Items.Q001_TShirt:
   usesVariants: False
   variants: []
   visualTags: []
-  weakspots: []
+  weakspots: []  
+  icon:
+    atlasResourcePath: base\gameplay\gui\common\icons\items\item_icons14.inkatlas
+    atlasPartName: clothing_player_inner_torso_item_t1_shirt_02_basic_04__Male_TPP_
