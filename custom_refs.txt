@@ -12,6 +12,10 @@ base\adshield\cyberdeck_nix\meshes\pwa\cyberdeck_straps_nix.mesh
 base\adshield\cyberdeck_nix\stuff\ads_cyberdeck_nix.app
 base\adshield\cyberdeck_nix\stuff\pma\ads_pma_cyberdeck_small_nix.ent
 base\adshield\cyberdeck_nix\stuff\pwa\ads_pwa_cyberdeck_small_nix.ent
+base\adshield\cyberdeck_sb\stuff\pma\ads_pma_cyberdeck_small_sb.ent
+base\adshield\cyberdeck_sb\stuff\pma\ads_pma_cyberdeck_small_strap_sb.ent
+base\adshield\cyberdeck_sb\stuff\pwa\ads_pwa_cyberdeck_small_sb.ent
+base\adshield\cyberdeck_sb\stuff\pwa\ads_pwa_cyberdeck_small_strap_sb.ent
 base\adshield\cyberdeck_sb\textures\cyberdeck_black_sb.mlsetup
 base\adshield\cyberdeck_sb\textures\cyberdeck_diy_sb.mlsetup
 base\adshield\cyberdeck_sb\textures\cyberdeck_orange_sb.mlsetup
