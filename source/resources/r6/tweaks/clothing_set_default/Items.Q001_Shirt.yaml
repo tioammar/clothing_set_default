@@ -27,7 +27,7 @@ Items.Q001_TShirt:
   effectors: []
   enableNpcRPGData: False
   entityName: t1_shirt_militech
-  equipArea: EquipmentArea.InnerChest
+  equipArea: EquipmentArea.ChestArmor
   equipAreas: []
   equipPrereqs: []
   friendlyName: ''
