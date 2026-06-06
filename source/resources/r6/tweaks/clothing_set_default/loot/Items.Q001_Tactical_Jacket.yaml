@@ -3,7 +3,7 @@ Items.Q001_Tactical_Jacket:
   animFeatureName: ItemData
   animName: ui_garment_pose
   animSetResource: ''
-  appearanceName: t2_vest_01_sq030_max_tac_
+  appearanceName: t2_vest_22_basic_01_
   appearanceSuffixes:
     - itemsFactoryAppearanceSuffix.Gender
     - itemsFactoryAppearanceSuffix.Camera
@@ -47,7 +47,7 @@ Items.Q001_Tactical_Jacket:
   itemCategory: ItemCategory.Clothing
   itemSecondaryAction: ItemAction.Equip
   itemType: ItemType.Clo_OuterChest
-  localizedDescription: LocKey#15196
+  localizedDescription: LocKey#89972
   localizedName: ''
   mass: 1
   minigameInstance: minigame_v2.DefaultItemMinigame
@@ -61,6 +61,7 @@ Items.Q001_Tactical_Jacket:
   parts: []
   placementSlots:
     - AttachmentSlots.Torso
+    - OutfitSlots.TorsoAux
   powerLevelDeterminedByParent: False
   previewBBoxOverride: []
   quality: Quality.Random
@@ -68,7 +69,6 @@ Items.Q001_Tactical_Jacket:
   replicateWhenNotActive: False
   requiredSlots: []
   savable: False
-  scaleToPlayer: True
   sellPrice:
     - Price.Clothing
     - Price.ClothingSellMultiplier
@@ -76,7 +76,7 @@ Items.Q001_Tactical_Jacket:
     - Price.Vest
   slotPartList:
     - Items.GenericRootSlotItem
-    - Items.Vest_Intrinsic_Armor_inline0
+    - Items.Vest_EP1_Intrinsic_Armor_inline0
   slotPartListPreset: []
   statModifierGroups:
     - Items.QualityRandomization
@@ -96,7 +96,9 @@ Items.Q001_Tactical_Jacket:
   tags:
     - Clothing
     - ChestArmor
-    - ArmorMod
+    - EP1
+    - Simple
+    - Military
   $type: gamedataClothing_Record
   upgradeCostMult: 1
   useHeadgearGarmentAggregator: False
