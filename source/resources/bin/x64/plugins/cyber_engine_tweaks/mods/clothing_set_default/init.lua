@@ -115,6 +115,12 @@ registerForEvent("onDraw", function()
                     if ImGui.Button("Add Boots!", -1, 0) then
                         Game.AddToInventory("Items.Q001_Shoes", 1)
                     end
+
+                    ImGui.AlignTextToFramePadding()
+                    ImGui.Text("Taped Square Glasses")
+                    if ImGui.Button("Add Glasses!", -1, 0) then
+                        Game.AddToInventory("Items.Q001_Glasses", 1)
+                    end
                 ImGui.EndTabItem()
                 end
             ImGui.EndTabBar()
@@ -123,27 +129,21 @@ registerForEvent("onDraw", function()
             if ImGui.BeginTabBar("##TabBar4") then
                 if ImGui.BeginTabItem("Additional Clothing") then
                     ImGui.AlignTextToFramePadding()
+                    ImGui.Text("V's Racer Jacket")
+                    if ImGui.Button("Add Racer Jacket!", -1, 0) then
+                        Game.AddToInventory("Items.Q001_Jacket", 1)
+                    end
+
+                    ImGui.AlignTextToFramePadding()
                     ImGui.Text("Tactical Vest")
                     if ImGui.Button("Add Tactical Vest!", -1, 0) then
                         Game.AddToInventory("Items.Q001_Tactical_Jacket", 1)
                     end
 
                     ImGui.AlignTextToFramePadding()
-                    ImGui.Text("Racer Jacket")
-                    if ImGui.Button("Add Racer Jacket!", -1, 0) then
-                        Game.AddToInventory("Items.Q000_Jacket", 1)
-                    end
-
-                    ImGui.AlignTextToFramePadding()
                     ImGui.Text("Syn-leather Boots")
                     if ImGui.Button("Add Leather Boots!", -1, 0) then
                         Game.AddToInventory("Items.Q001_Boots", 1)
-                    end
-
-                    ImGui.AlignTextToFramePadding()
-                    ImGui.Text("Taped Square Glasses")
-                    if ImGui.Button("Add Glasses!", -1, 0) then
-                        Game.AddToInventory("Items.Q001_Glasses", 1)
                     end
 
                     ImGui.AlignTextToFramePadding()
