@@ -1,4 +1,4 @@
-Items.Q001_Jacket:
+Items.Q001_TShirt:
   $type: gamedataClothing_Record
   animFeatureName: ItemData
   animName: ui_garment_pose
