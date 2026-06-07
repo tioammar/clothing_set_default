@@ -79,6 +79,8 @@ base\militech\t1_shirt_militech_m.ent
 base\militech\t1_shirt_militech.app
 base\militech\t1_shirt_militech.ent
 base\militech\t1_shirt_militech\t1_shirt_militech.mesh
+base\militech\t1_shirt_militech\t2_tech_gear_m.ent
+base\militech\t1_shirt_militech\t2_tech_gear_m.mesh
 base\militech\t1_shirt_militech\v_militech_glossy_ml.mlsetup
 base\militech\t1_shirt_militech\v_militech_ml.mlsetup
 base\militech\v_militech_shirt.csv
