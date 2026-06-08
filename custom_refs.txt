@@ -84,6 +84,7 @@ base\militech\t1_shirt_militech\t2_tech_gear_m.mesh
 base\militech\t1_shirt_militech\v_militech_glossy_ml.mlsetup
 base\militech\t1_shirt_militech\v_militech_ml.mlsetup
 base\militech\v_militech_shirt.csv
+base\racer\t2_racer_jacket.app
 base\v_boots.csv
 base\v_cyberdeck.csv
 base\vehicles\sport\v_sport1_quadra_turbo\entities\meshes\textures\ml_v_sport1_quadra_turbo_01_hella_exterior.mlsetup

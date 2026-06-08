@@ -12,7 +12,7 @@ LootTables.mq000_vs_apartment_wardrobe:
 
 LootTables.mq000_vs_apartment_wardrobe_inline0:
   $type: gamedataLootItem_Record
-  itemID: Items.Q001_Tactical_Jacket
+  itemID: Items.Vest_17_basic_02
   dropChance: 1
   dropCountMax: 1
   dropCountMin: 1
@@ -32,7 +32,7 @@ LootTables.mq000_vs_apartment_wardrobe_inline1:
 
 LootTables.mq000_vs_apartment_wardrobe_inline2:
   $type: gamedataLootItem_Record
-  itemID: Items.Jacket_05_old_01
+  itemID: Items.FormalShirt_02_basic_02
   dropChance: 1
   dropCountMax: 1
   dropCountMin: 1

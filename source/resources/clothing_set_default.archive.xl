@@ -3,6 +3,7 @@ factories:
     - raem\accessories\xl\rm_neck_bulletv_factory.csv
     - base\kneepad\items\v_knee_pads.csv
     - base\militech\v_militech_shirt.csv
+    - base\racer\v_racer_jacket.csv
 
 localization:
     onscreens:

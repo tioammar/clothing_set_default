@@ -131,13 +131,7 @@ registerForEvent("onDraw", function()
                     ImGui.AlignTextToFramePadding()
                     ImGui.Text("V's Racer Jacket")
                     if ImGui.Button("Add Racer Jacket!", -1, 0) then
-                        Game.AddToInventory("Items.Q001_Jacket", 1)
-                    end
-
-                    ImGui.AlignTextToFramePadding()
-                    ImGui.Text("Tactical Vest")
-                    if ImGui.Button("Add Tactical Vest!", -1, 0) then
-                        Game.AddToInventory("Items.Q001_Tactical_Jacket", 1)
+                        Game.AddToInventory("Items.Q001_Racer", 1)
                     end
 
                     ImGui.AlignTextToFramePadding()
@@ -147,15 +141,21 @@ registerForEvent("onDraw", function()
                     end
 
                     ImGui.AlignTextToFramePadding()
-                    ImGui.Text("Second Conflict Biker Jacket")
-                    if ImGui.Button("Add Biker Jacket!", -1, 0) then
-                        Game.AddToInventory("Items.Jacket_05_old_01", 1)
+                    ImGui.Text("Puffer Vest")
+                    if ImGui.Button("Add Puffer Vest!", -1, 0) then
+                        Game.AddToInventory("Items.Vest_17_basic_02", 1)
                     end
 
                     ImGui.AlignTextToFramePadding()
-                    ImGui.Text("Knee Pad")
-                    if ImGui.Button("Add Knee Pad!", -1, 0) then
-                        Game.AddToInventory("Items.Q001_Knee_Pad", 1)
+                    ImGui.Text("Vinyl Jacket")
+                    if ImGui.Button("Add Vinyl Jacket!", -1, 0) then
+                        Game.AddToInventory("Items.Jacket_24_basic_01", 1)
+                    end
+                    
+                    ImGui.AlignTextToFramePadding()
+                    ImGui.Text("Arcti Combat")
+                    if ImGui.Button("Add Arcti Combat!", -1, 0) then
+                        Game.AddToInventory("Items.FormalShirt_02_basic_02", 1)
                     end
                 ImGui.EndTabItem()
                 end

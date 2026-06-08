@@ -10,11 +10,11 @@ Items.Q001_TShirt:
   appearanceSuffixesOwnerOverride:
     - True
   attachmentSlots: []
-  blueprint: Items.InnerChestClothingBlueprint
+  blueprint: Items.OuterChestClothingBlueprint
   buyPrice:
     - Price.Clothing
     - Price.BuyPrice_StreetCred_Discount
-    - Price.InnerChestClothing
+    - Price.OuterChestClothing
     - Price.Shirt
   cameraForward: {x: 0, y: 0, z: 0}
   cameraUp: {x: 0, y: 0, z: 0}
@@ -43,7 +43,7 @@ Items.Q001_TShirt:
   isSingleInstance: False
   itemCategory: ItemCategory.Clothing
   itemSecondaryAction: ItemAction.Equip
-  itemType: ItemType.Clo_InnerChest
+  itemType: ItemType.Clo_OuterChest
   localizedDescription: LocKey("v_shirt_desc")
   localizedName: ''
   mass: 1
@@ -58,6 +58,7 @@ Items.Q001_TShirt:
   parts: []
   placementSlots:
     - AttachmentSlots.Chest
+    - OutfitSlots.TorsoMiddle
   powerLevelDeterminedByParent: False
   previewBBoxOverride: []
   quality: Quality.Random
@@ -68,30 +69,30 @@ Items.Q001_TShirt:
   sellPrice:
     - Price.Clothing
     - Price.ClothingSellMultiplier
-    - Price.InnerChestClothing
+    - Price.OuterChestClothing
     - Price.Shirt
   slotPartList:
     - Items.GenericRootSlotItem
-    - Items.GenericInnerChestClothing_inline0
+    - Items.GenericOuterChestClothing_inline0
   slotPartListPreset: []
   statModifierGroups:
     - Items.QualityRandomization
   statModifiers:
     - Items.ItemArmorToArmor
     - RTDB.Clothing_inline0
-    - Items.InnerChestClothingBase_inline0
-    - Items.InnerChestClothingBase_inline1
-    - Items.InnerChestClothingBase_inline2
-    - Items.InnerChestClothingBase_inline3
-    - Items.InnerChestClothingBase_inline4
-    - Items.InnerChestClothingBase_inline5
-    - Items.InnerChestClothingBase_inline6
-    - Items.InnerChestClothingBase_inline7
+    - Items.OuterChestClothingBase_inline0
+    - Items.OuterChestClothingBase_inline1
+    - Items.OuterChestClothingBase_inline2
+    - Items.OuterChestClothingBase_inline3
+    - Items.OuterChestClothingBase_inline4
+    - Items.OuterChestClothingBase_inline5
+    - Items.OuterChestClothingBase_inline6
+    - Items.OuterChestClothingBase_inline7
     - Items.Shirt_inline0
   statPools: []
   tags:
     - Clothing
-    - InnerChestArmor
+    - ChestArmor
   $type: gamedataClothing_Record
   upgradeCostMult: 1
   useHeadgearGarmentAggregator: False
