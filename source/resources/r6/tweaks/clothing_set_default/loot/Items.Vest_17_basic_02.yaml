@@ -3,7 +3,7 @@ Items.Vest_17_basic_02:
   animFeatureName: ItemData
   animName: ui_garment_pose
   animSetResource: ''
-  appearanceName: t2_vest_17_basic_02_
+  appearanceName: t2_vest_16_old_01_
   appearanceSuffixes:
     - itemsFactoryAppearanceSuffix.Gender
     - itemsFactoryAppearanceSuffix.Camera
@@ -23,7 +23,7 @@ Items.Vest_17_basic_02:
   connections: []
   crosshair: Crosshairs.None
   deprecated: False
-  displayName: LocKey#33809
+  displayName: LocKey#33804
   dropObject: defaultItemDrop
   effectors: []
   enableNpcRPGData: False
@@ -47,7 +47,7 @@ Items.Vest_17_basic_02:
   itemCategory: ItemCategory.Clothing
   itemSecondaryAction: ItemAction.Equip
   itemType: ItemType.Clo_OuterChest
-  localizedDescription: LocKey#33886
+  localizedDescription: LocKey#33881
   localizedName: ''
   mass: 1
   minigameInstance: minigame_v2.DefaultItemMinigame
@@ -76,6 +76,7 @@ Items.Vest_17_basic_02:
     - Price.Vest
   slotPartList:
     - Items.GenericRootSlotItem
+    - Items.GenericOuterChestClothing_inline0
   slotPartListPreset: []
   statModifierGroups:
     - Items.QualityRandomization
@@ -90,15 +91,11 @@ Items.Vest_17_basic_02:
     - Items.OuterChestClothingBase_inline5
     - Items.OuterChestClothingBase_inline6
     - Items.OuterChestClothingBase_inline7
-    - Items.EmptySlotsVest_inline0
+    - Items.Vest_inline0
   statPools: []
   tags:
     - Clothing
     - ChestArmor
-    - EmptySlots
-    - Simple
-    - Streetwear
-    - VoodooBoys
   $type: gamedataClothing_Record
   upgradeCostMult: 1
   useHeadgearGarmentAggregator: False

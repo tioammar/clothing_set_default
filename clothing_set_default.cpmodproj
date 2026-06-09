@@ -5,4 +5,8 @@
   <Author>tioammar</Author>
   <Email />
   <Version>1.0.0</Version>
+  <OpenProjectFiles>base\characters\main_npc\nix\h0_740_ma__nix.ent</OpenProjectFiles>
+  <OpenProjectFiles>base\characters\appearances\gang\gang__cyberpunk_ma_nix.app</OpenProjectFiles>
+  <OpenProjectFiles>base\characters\garment\player_equipment\torso\t2_109_jacket__puffy_vest\t2_109_pma_jacket__puffy_vest.mesh</OpenProjectFiles>
+  <OpenProjectFiles>base\characters\appearances\player\items\torso\t2_vest_16.app</OpenProjectFiles>
 </CP77Mod>
