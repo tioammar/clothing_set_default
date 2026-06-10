@@ -17,6 +17,7 @@ base\characters\cyberware\player\a0_005__strongarms\entities\meshes\textures\a0_
 base\characters\cyberware\player\a0_005__strongarms\entities\meshes\textures\a0_003_ma__strongarms_holstered_n01.xbm
 base\characters\garment\gang_aldecaldos\torso\t2_091_jacket__racing\textures\carbon_military_black.mlsetup
 base\characters\garment\gang_nomad\feet\s1_026_boot__heavy\textures\leather_black.mlsetup
+base\characters\garment\gang_tyger_claws\torso\t2_109_jacket__puffy_vest\textures\spadnex_black.mlsetup
 base\characters\garment\gang_valentino\torso\t1_060_tank__corset\textures\ml_t1_060_ma_tank__corset_black.mlsetup
 base\characters\garment\player_equipment\torso\t2_084_jacket__short_sleeves\t2_084_pma_v_short_sleeves.mesh
 base\characters\garment\player_equipment\torso\t2_084_pma_v_short_sleeves.ent
@@ -97,6 +98,7 @@ base\militech\t1_shirt_militech.ent
 base\militech\t1_shirt_militech\t1_shirt_militech.mesh
 base\militech\t1_shirt_militech\t2_tech_gear_m.ent
 base\militech\t1_shirt_militech\t2_tech_gear_m.mesh
+base\militech\t1_shirt_militech\v_militech_b_ml.mlsetup
 base\militech\t1_shirt_militech\v_militech_glossy_ml.mlsetup
 base\militech\t1_shirt_militech\v_militech_ml.mlsetup
 base\militech\v_militech_shirt.csv
@@ -166,6 +168,7 @@ raem\accessories\neck_bulletv\physics\rm_neck_bulletv.animgraph
 raem\accessories\neck_bulletv\rm_neck_bulletv_app.app
 raem\accessories\neck_bulletv\rm_neck_bulletv_m.ent
 raem\accessories\neck_bulletv\rm_neck_bulletv_m.mesh
+raem\accessories\neck_bulletv\rm_neck_bulletv_root_.ent
 raem\accessories\neck_bulletv\rm_neck_bulletv_root.ent
 raem\accessories\neck_bulletv\rm_neck_bulletv_w.ent
 raem\accessories\neck_bulletv\rm_neck_bulletv_w.mesh

@@ -60,7 +60,7 @@ registerForEvent("onInit", function()
     function(this, entry)
         if tostring(entry.id) == "johnny_talk" and not is_johnny then
             print("clothing_set_default: checkpoint_" .. tostring(entry.id))
-            Game.AddToInventory("Items.V_Necklace_titanium", 1)
+            Game.AddToInventory("Items.V_Necklace", 1)
             is_johnny = true
             statusPrint()
         end
@@ -135,9 +135,9 @@ registerForEvent("onDraw", function()
                     end
 
                     ImGui.AlignTextToFramePadding()
-                    ImGui.Text("Syn-leather Boots")
-                    if ImGui.Button("Add Leather Boots!", -1, 0) then
-                        Game.AddToInventory("Items.Q001_Boots", 1)
+                    ImGui.Text("V's Necklace")
+                    if ImGui.Button("Add Necklace!", -1, 0) then
+                        Game.AddToInventory("Items.V_Necklace", 1)
                     end
 
                     ImGui.AlignTextToFramePadding()

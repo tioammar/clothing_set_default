@@ -1,0 +1,21 @@
+Items.V_Necklace:
+  $base: Items.GenericInnerChestClothing
+  entityName: rm_neck_bulletv
+  quality: Quality.Random
+  placementSlots: 
+    - !append OutfitSlots.NecklaceShort
+  statModifiers:
+    - !append Character.ScaleToPlayerLevel
+    - !append
+       $type: gamedataConstantStatModifier_Record
+       value: 0.2
+       modifierType: Multiplier
+       statType: BaseStats.Weight
+  appearanceName: pendant_
+  appearanceSuffixes:
+    - itemsFactoryAppearanceSuffix.Gender
+  displayName: rm_neck_bulletv_sh_titanium_name
+  localizedDescription: rm_neck_bulletv_sh_desc
+  icon:
+    atlasResourcePath: raem\accessories\icons\rm_neck_bulletv_s_icons.inkatlas
+    atlasPartName: slot_10
